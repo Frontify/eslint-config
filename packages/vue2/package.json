@@ -1,0 +1,24 @@
+{
+  "name": "@frontify/eslint-config-vue2",
+  "version": "0.2.0",
+  "main": "index.js",
+  "author": "Frontify Developers <developers@frontify.com>",
+  "license": "MIT",
+  "files": [
+    "index.js"
+  ],
+  "peerDependencies": {
+    "eslint": ">=7.18.0"
+  },
+  "publishConfig": {
+    "access": "public"
+  },
+  "dependencies": {
+    "@frontify/eslint-config-typescript": "^0.2.0",
+    "eslint-plugin-vue": "^7.5.0",
+    "eslint-plugin-vue-scoped-css": "^1.1.0"
+  },
+  "devDependencies": {
+    "eslint": "^7.18.0"
+  }
+}
