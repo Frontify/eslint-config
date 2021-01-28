@@ -2,8 +2,7 @@
 
 This repository contains all Frontify ESLint configurations for its projects.
 
-
-# Publish a new version
+## Publish a new version
 
 This repository uses [Conventional Commits](https://www.conventionalcommits.org/) to generate the changelog file.
 
