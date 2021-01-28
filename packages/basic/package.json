@@ -1,0 +1,30 @@
+
+{
+  "name": "@frontify/eslint-config-basic",
+  "version": "0.0.1",
+  "main": "index.js",
+  "author": "Frontify Developers <developers@frontify.com>",
+  "license": "MIT",
+  "scripts": {
+    "lint": "eslint . --config=index.js"
+  },
+  "files": [
+    "index.js"
+  ],
+  "publishConfig": {
+    "access": "public"
+  },
+  "peerDependencies": {
+    "eslint": ">=7.18.0"
+  },
+  "dependencies": {
+    "eslint-config-standard": "^16.0.2",
+    "eslint-plugin-html": "^6.1.1",
+    "eslint-plugin-node": "^11.1.0",
+    "eslint-plugin-promise": "^4.2.1",
+    "eslint-plugin-standard": "^5.0.0"
+  },
+  "devDependencies": {
+    "eslint": "^7.18.0"
+  }
+}

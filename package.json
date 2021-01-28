@@ -1,0 +1,15 @@
+{
+  "name": "@frontify/eslint-config-monorepo",
+  "version": "0.0.1",
+  "author": "Frontify Developers <developers@frontify.com>",
+  "license": "MIT",
+  "scripts": {
+    "lint": "eslint --ext .js --fix .",
+    "release": "lerna publish --conventional-commits"
+  },
+  "devDependencies": {
+    "eslint": "^7.18.0",
+    "lerna": "^3.22.1",
+    "typescript": "^4.1.3"
+  }
+}
