@@ -4,7 +4,6 @@ module.exports = {
     browser: true,
     node: true,
   },
-  extends: ["standard"],
   plugins: ["html"],
   rules: {
     "linebreak-style": ["error", "unix"],
