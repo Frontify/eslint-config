@@ -3,6 +3,18 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+## [0.3.1](https://github.com/Frontify/eslint-config/compare/v0.3.0...v0.3.1) (2021-02-03)
+
+
+### Features
+
+* Add commit lint config ([f92634a](https://github.com/Frontify/eslint-config/commit/f92634a96bb6eefadb08c3a2260d2faf94333625))
+* add husky and commitlint ([6dfd98c](https://github.com/Frontify/eslint-config/commit/6dfd98c41b5c8ed9a4028894fef970bba70a42cb))
+
+
+
+
+
 # [0.3.0](https://github.com/Frontify/eslint-config/compare/v0.2.0...v0.3.0) (2021-01-28)
 
 
