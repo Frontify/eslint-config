@@ -1,6 +1,6 @@
 {
   "name": "@frontify/eslint-config-vue2",
-  "version": "0.3.2",
+  "version": "0.3.3",
   "main": "index.js",
   "author": "Frontify Developers <developers@frontify.com>",
   "license": "MIT",
@@ -14,7 +14,7 @@
     "access": "public"
   },
   "dependencies": {
-    "@frontify/eslint-config-typescript": "^0.3.2",
+    "@frontify/eslint-config-typescript": "^0.3.3",
     "eslint-plugin-vue": "^7.5.0",
     "eslint-plugin-vue-scoped-css": "^1.1.0"
   },
