@@ -6,11 +6,6 @@ module.exports = {
   },
   extends: ["standard"],
   plugins: ["html"],
-  settings: {
-    "import/resolver": {
-      node: { extensions: [".js", ".mjs"] },
-    },
-  },
   rules: {
     "linebreak-style": ["error", "unix"],
   },
