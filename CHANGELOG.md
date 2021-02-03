@@ -3,6 +3,17 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+# [0.4.0](https://github.com/Frontify/eslint-config/compare/v0.3.3...v0.4.0) (2021-02-03)
+
+
+### Features
+
+* Add support of prettier ([c828ea0](https://github.com/Frontify/eslint-config/commit/c828ea051275a34d4ac9bb99a55b9aecec3446cb))
+
+
+
+
+
 ## [0.3.3](https://github.com/Frontify/eslint-config/compare/v0.3.2...v0.3.3) (2021-02-03)
 
 **Note:** Version bump only for package @frontify/eslint-config-monorepo
