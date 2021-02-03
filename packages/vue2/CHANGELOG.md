@@ -3,6 +3,17 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+## [0.4.1](https://github.com/Frontify/eslint-config/compare/v0.4.0...v0.4.1) (2021-02-03)
+
+
+### Bug Fixes
+
+* **eslint-config-vue2:** Correct extends typescript and add prettier ([956817c](https://github.com/Frontify/eslint-config/commit/956817c7ef3122eb392623112d6317ee41623f0c))
+
+
+
+
+
 # [0.4.0](https://github.com/Frontify/eslint-config/compare/v0.3.3...v0.4.0) (2021-02-03)
 
 **Note:** Version bump only for package @frontify/eslint-config-vue2
