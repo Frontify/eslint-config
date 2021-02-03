@@ -4,8 +4,12 @@ module.exports = {
     browser: true,
     node: true,
   },
-  plugins: ["html"],
   rules: {
     "linebreak-style": ["error", "unix"],
+  },
+  plugins: ["html", "prettier"],
+  extends: ["plugin:prettier/recommended"],
+  rules: {
+    "prettier/prettier": "error",
   },
 };
