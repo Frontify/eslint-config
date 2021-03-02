@@ -1,6 +1,6 @@
 {
   "name": "@frontify/eslint-config-basic",
-  "version": "0.4.0",
+  "version": "0.4.2",
   "main": "index.js",
   "author": "Frontify Developers <developers@frontify.com>",
   "license": "MIT",
