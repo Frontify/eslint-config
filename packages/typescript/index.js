@@ -4,7 +4,7 @@ module.exports = {
   extends: [
     "@frontify/eslint-config-basic",
     "plugin:@typescript-eslint/recommended",
-    "prettier/@typescript-eslint",
+    "prettier",
   ],
   rules: {
     // As we're using @typescript-eslint it's recommended to turn off
