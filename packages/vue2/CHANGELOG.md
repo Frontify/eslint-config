@@ -3,6 +3,17 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+# [0.5.0](https://github.com/Frontify/eslint-config/compare/v0.4.3...v0.5.0) (2021-03-02)
+
+
+### Features
+
+* Update to eslint-config-prettier 8.0.0 ([171569f](https://github.com/Frontify/eslint-config/commit/171569f390a77171cc1a16ff744ec3f07e43bf38))
+
+
+
+
+
 ## [0.4.3](https://github.com/Frontify/eslint-config/compare/v0.4.2...v0.4.3) (2021-03-02)
 
 **Note:** Version bump only for package @frontify/eslint-config-vue2
