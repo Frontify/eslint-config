@@ -11,15 +11,15 @@
     "access": "public"
   },
   "peerDependencies": {
-    "eslint": ">=7.18.0",
-    "typescript": ">=4.1.3"
+    "eslint": ">=7.21.0",
+    "typescript": ">=4.2.2"
   },
   "dependencies": {
     "@frontify/eslint-config-basic": "^0.4.0",
-    "@typescript-eslint/eslint-plugin": "^4.14.1",
-    "@typescript-eslint/parser": "^4.14.1"
+    "@typescript-eslint/eslint-plugin": "^4.16.1",
+    "@typescript-eslint/parser": "^4.16.1"
   },
   "devDependencies": {
-    "eslint": "^7.18.0"
+    "eslint": "^7.21.0"
   }
 }
