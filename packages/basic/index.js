@@ -6,10 +6,8 @@ module.exports = {
   },
   rules: {
     "linebreak-style": ["error", "unix"],
+    "prettier/prettier": "error",
   },
   plugins: ["html", "prettier"],
   extends: ["plugin:prettier/recommended"],
-  rules: {
-    "prettier/prettier": "error",
-  },
 };
