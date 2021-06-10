@@ -6,5 +6,6 @@ module.exports = {
   ],
   rules: {
     "jsx-quotes": ["error", "prefer-double"],
+    "react/react-in-jsx-scope": "off", // React >=17 doesn't needed it anymore
   },
 };
