@@ -3,6 +3,17 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+# [0.6.0](https://github.com/Frontify/eslint-config/compare/v0.5.1...v0.6.0) (2021-06-10)
+
+
+### Features
+
+* remove error when `React` isn't imported on top of the file ([fc16ec3](https://github.com/Frontify/eslint-config/commit/fc16ec3f90097cf09cdaa4a344b472a48478af4a))
+
+
+
+
+
 ## [0.5.1](https://github.com/Frontify/eslint-config/compare/v0.5.0...v0.5.1) (2021-06-10)
 
 **Note:** Version bump only for package @frontify/eslint-config-react
