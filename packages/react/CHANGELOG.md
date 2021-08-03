@@ -3,6 +3,17 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+# [0.8.0](https://github.com/Frontify/eslint-config/compare/v0.7.0...v0.8.0) (2021-08-03)
+
+
+### Features
+
+* turn off `prop-types` ([72bcebf](https://github.com/Frontify/eslint-config/commit/72bcebfcdf1b9a2a3f839f0a98888c23302ae18a))
+
+
+
+
+
 # [0.7.0](https://github.com/Frontify/eslint-config/compare/v0.6.0...v0.7.0) (2021-06-15)
 
 
