@@ -9,6 +9,7 @@ module.exports = {
     "prettier/prettier": "error",
     "prefer-template": "error",
     "no-useless-concat": "error",
+    "prefer-arrow-callback": "error",
   },
   plugins: ["html", "prettier"],
   extends: ["plugin:prettier/recommended"],
