@@ -3,6 +3,17 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+# [0.11.0](https://github.com/Frontify/eslint-config/compare/v0.10.0...v0.11.0) (2021-09-20)
+
+
+### Features
+
+* add prefer-const rule ([a835321](https://github.com/Frontify/eslint-config/commit/a835321fe1fa0cd4a03131e1ba5661689131e761))
+
+
+
+
+
 # [0.10.0](https://github.com/Frontify/eslint-config/compare/v0.9.1...v0.10.0) (2021-09-20)
 
 
