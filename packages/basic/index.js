@@ -11,6 +11,7 @@ module.exports = {
     "no-useless-concat": "error",
     "prefer-arrow-callback": "error",
     "no-var": "error",
+    "prefer-const": "error",
   },
   plugins: ["html", "prettier"],
   extends: ["plugin:prettier/recommended"],
