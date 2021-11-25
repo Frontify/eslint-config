@@ -3,6 +3,18 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+# [0.12.0](https://github.com/Frontify/eslint-config/compare/v0.11.0...v0.12.0) (2021-11-25)
+
+
+### Features
+
+* add new rules ([028060a](https://github.com/Frontify/eslint-config/commit/028060ad816eb4f0aa129c784f94783f74677da6))
+* update eslint ([b9d5934](https://github.com/Frontify/eslint-config/commit/b9d593423ba877101bbd162b2490b11317a41d0e))
+
+
+
+
+
 # [0.11.0](https://github.com/Frontify/eslint-config/compare/v0.10.0...v0.11.0) (2021-09-20)
 
 
