@@ -3,6 +3,17 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+## [0.13.2](https://github.com/Frontify/eslint-config/compare/v0.13.1...v0.13.2) (2021-12-03)
+
+
+### Bug Fixes
+
+* change order of extends ([706a862](https://github.com/Frontify/eslint-config/commit/706a8623529598c67240ee4eb91913128aaa31b7))
+
+
+
+
+
 ## [0.13.1](https://github.com/Frontify/eslint-config/compare/v0.13.0...v0.13.1) (2021-12-03)
 
 **Note:** Version bump only for package @frontify/eslint-config-react
