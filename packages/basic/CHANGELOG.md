@@ -3,6 +3,17 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+## [0.13.1](https://github.com/Frontify/eslint-config/compare/v0.13.0...v0.13.1) (2021-12-03)
+
+
+### Bug Fixes
+
+* **eslint-config-basic:** add plugin import ([792461d](https://github.com/Frontify/eslint-config/commit/792461d1ad3c14bd31ee0edffedfb76b5131a14e))
+
+
+
+
+
 # [0.13.0](https://github.com/Frontify/eslint-config/compare/v0.12.0...v0.13.0) (2021-12-03)
 
 
