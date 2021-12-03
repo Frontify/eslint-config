@@ -18,6 +18,6 @@ module.exports = {
     curly: "error",
     "import/no-default-export": "error",
   },
-  plugins: ["html", "prettier"],
+  plugins: ["html", "prettier", "import"],
   extends: ["plugin:prettier/recommended"],
 };
