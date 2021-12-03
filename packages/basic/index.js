@@ -15,6 +15,8 @@ module.exports = {
     eqeqeq: "error",
     "no-eval": "error",
     "no-extra-bind": "error",
+    curly: "error",
+    "import/no-default-export": "error",
   },
   plugins: ["html", "prettier"],
   extends: ["plugin:prettier/recommended"],
