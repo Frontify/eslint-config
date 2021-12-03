@@ -1,8 +1,8 @@
 module.exports = {
   extends: [
-    "@frontify/eslint-config-typescript",
     "plugin:react/recommended",
     "prettier",
+    "@frontify/eslint-config-typescript",
   ],
   rules: {
     "jsx-quotes": ["error", "prefer-double"],

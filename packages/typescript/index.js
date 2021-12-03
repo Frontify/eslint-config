@@ -2,9 +2,9 @@ module.exports = {
   plugins: ["@typescript-eslint"],
   parser: "@typescript-eslint/parser",
   extends: [
-    "@frontify/eslint-config-basic",
     "plugin:@typescript-eslint/recommended",
     "prettier",
+    "@frontify/eslint-config-basic",
   ],
   rules: {
     // As we're using @typescript-eslint it's recommended to turn off
