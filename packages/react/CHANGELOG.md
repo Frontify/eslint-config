@@ -3,6 +3,17 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+# [0.14.0](https://github.com/Frontify/eslint-config/compare/v0.13.2...v0.14.0) (2021-12-20)
+
+
+### Features
+
+* **eslint-config-react:** add `react-hooks` eslint rules ([10660c8](https://github.com/Frontify/eslint-config/commit/10660c8db743cf5564574c73863f9d0a31a898be))
+
+
+
+
+
 ## [0.13.2](https://github.com/Frontify/eslint-config/compare/v0.13.1...v0.13.2) (2021-12-03)
 
 
