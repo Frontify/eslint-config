@@ -3,6 +3,10 @@
   "version": "0.0.1",
   "author": "Frontify Developers <developers@frontify.com>",
   "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/Frontify/eslint-config"
+  },
   "scripts": {
     "bootstrap": "lerna bootstrap",
     "lint": "eslint --ext .js --fix .",

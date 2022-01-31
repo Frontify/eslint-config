@@ -4,6 +4,11 @@
   "main": "index.js",
   "author": "Frontify Developers <developers@frontify.com>",
   "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/Frontify/eslint-config",
+    "directory": "packages/typescript"
+  },
   "files": [
     "index.js"
   ],
