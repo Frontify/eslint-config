@@ -135,16 +135,16 @@ module.exports = {
     "unicorn/no-this-assignment": "error",
     "unicorn/no-unsafe-regex": "error",
     "unicorn/no-useless-length-check": "error",
-  },
 
-  "sort-imports": [
-    "error",
-    {
-      ignoreCase: false,
-      ignoreDeclarationSort: true,
-      ignoreMemberSort: false,
-      memberSyntaxSortOrder: ["none", "all", "multiple", "single"],
-      allowSeparatedGroups: false,
-    },
-  ],
+    "sort-imports": [
+      "error",
+      {
+        ignoreCase: false,
+        ignoreDeclarationSort: true,
+        ignoreMemberSort: false,
+        memberSyntaxSortOrder: ["none", "all", "multiple", "single"],
+        allowSeparatedGroups: false,
+      },
+    ],
+  },
 };
