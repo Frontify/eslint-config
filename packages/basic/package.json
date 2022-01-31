@@ -4,6 +4,11 @@
   "main": "index.js",
   "author": "Frontify Developers <developers@frontify.com>",
   "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/Frontify/eslint-config",
+    "directory": "packages/basic"
+  },
   "scripts": {
     "lint": "eslint . --config=index.js"
   },
@@ -19,9 +24,10 @@
   "dependencies": {
     "eslint-config-prettier": "^8.3.0",
     "eslint-plugin-html": "^6.2.0",
-    "eslint-plugin-import": "^2.25.3",
+    "eslint-plugin-jsonc": "^2.1.0",
     "eslint-plugin-node": "^11.1.0",
     "eslint-plugin-prettier": "^4.0.0",
-    "eslint-plugin-promise": "^6.0.0"
+    "eslint-plugin-promise": "^6.0.0",
+    "eslint-plugin-unicorn": "^40.1.0"
   }
 }
