@@ -1,6 +1,6 @@
 {
   "name": "@frontify/eslint-config-react",
-  "version": "0.15.0",
+  "version": "0.15.1",
   "main": "index.js",
   "author": "Frontify Developers <developers@frontify.com>",
   "license": "MIT",
@@ -23,7 +23,7 @@
     "access": "public"
   },
   "dependencies": {
-    "@frontify/eslint-config-typescript": "^0.15.0",
+    "@frontify/eslint-config-typescript": "^0.15.1",
     "eslint-plugin-react": "^7.27.1",
     "eslint-plugin-react-hooks": "^4.3.0"
   }
