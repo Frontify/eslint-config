@@ -96,7 +96,7 @@ module.exports = {
     "no-extra-bind": "error",
     curly: ["error", "all"],
     semi: ["error", "always"],
-    quotes: ["error", "double", { avoidEscape: true }],
+    quotes: ["error", "single", { avoidEscape: true }],
     "vars-on-top": "error",
     "block-scoped-var": "error",
     "array-callback-return": "error",
