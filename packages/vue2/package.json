@@ -20,7 +20,7 @@
   },
   "dependencies": {
     "@frontify/eslint-config-typescript": "^0.15.2",
-    "eslint-plugin-vue": "^8.2.0",
+    "eslint-plugin-vue": "^9.0.0",
     "eslint-plugin-vue-scoped-css": "^2.0.0"
   }
 }
