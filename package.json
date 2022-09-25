@@ -14,9 +14,9 @@
     "postinstall": "husky install"
   },
   "devDependencies": {
-    "@commitlint/cli": "15.0.0",
-    "@commitlint/config-conventional": "15.0.0",
-    "@commitlint/config-lerna-scopes": "15.0.0",
+    "@commitlint/cli": "17.1.2",
+    "@commitlint/config-conventional": "17.1.0",
+    "@commitlint/config-lerna-scopes": "17.0.2",
     "eslint": "8.13.0",
     "husky": "7.0.4",
     "lerna": "4.0.0",
