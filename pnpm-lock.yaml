@@ -47,7 +47,7 @@ importers:
 
   packages/react:
     specifiers:
-      '@frontify/eslint-config-typescript': ^0.15.3
+      '@frontify/eslint-config-typescript': ^0.15.4
       eslint: 8.27.0
       eslint-plugin-react: ^7.31.10
       eslint-plugin-react-hooks: ^4.6.0
@@ -79,7 +79,7 @@ importers:
 
   packages/vue2:
     specifiers:
-      '@frontify/eslint-config-typescript': ^0.15.3
+      '@frontify/eslint-config-typescript': ^0.15.4
       eslint: 8.27.0
       eslint-plugin-vue: ^9.7.0
       eslint-plugin-vue-scoped-css: ^2.2.0

@@ -1,5 +1,11 @@
 # @frontify/eslint-config-react
 
+## 0.15.4
+
+### Patch Changes
+
+-   Bump eslint config typescript
+
 ## 0.15.3
 
 ### Patch Changes
