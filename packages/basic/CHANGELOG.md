@@ -1,5 +1,11 @@
 # @frontify/eslint-config-basic
 
+## 0.17.0
+
+### Minor Changes
+
+-   Add more rules in basic package
+
 ## 0.16.0
 
 ### Minor Changes

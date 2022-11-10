@@ -1,5 +1,13 @@
 # @frontify/eslint-config-vue2
 
+## 0.15.5
+
+### Patch Changes
+
+-   Add more rules in basic package
+-   Updated dependencies
+    -   @frontify/eslint-config-typescript@0.15.5
+
 ## 0.15.4
 
 ### Patch Changes
