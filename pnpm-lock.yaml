@@ -27,6 +27,7 @@ importers:
       eslint-plugin-html: ^7.1.0
       eslint-plugin-jsonc: ^2.5.0
       eslint-plugin-node: ^11.1.0
+      eslint-plugin-notice: ^0.9.10
       eslint-plugin-prettier: ^4.2.1
       eslint-plugin-promise: ^6.1.1
       eslint-plugin-unicorn: ^44.0.2
@@ -36,6 +37,7 @@ importers:
       eslint-plugin-html: 7.1.0
       eslint-plugin-jsonc: 2.5.0_eslint@8.27.0
       eslint-plugin-node: 11.1.0_eslint@8.27.0
+      eslint-plugin-notice: 0.9.10_eslint@8.27.0
       eslint-plugin-prettier: 4.2.1_v7o5sx5x3wbs57ifz6wc4f76we
       eslint-plugin-promise: 6.1.1_eslint@8.27.0
       eslint-plugin-unicorn: 44.0.2_eslint@8.27.0
@@ -1370,6 +1372,17 @@ packages:
       semver: 6.3.0
     dev: false
 
+  /eslint-plugin-notice/0.9.10_eslint@8.27.0:
+    resolution: {integrity: sha512-rF79EuqdJKu9hhTmwUkNeSvLmmq03m/NXq/NHwUENHbdJ0wtoyOjxZBhW4QCug8v5xYE6cGe3AWkGqSIe9KUbQ==}
+    peerDependencies:
+      eslint: '>=3.0.0'
+    dependencies:
+      eslint: 8.27.0
+      find-root: 1.1.0
+      lodash: 4.17.21
+      metric-lcs: 0.1.2
+    dev: false
+
   /eslint-plugin-prettier/4.2.1_v7o5sx5x3wbs57ifz6wc4f76we:
     resolution: {integrity: sha512-f/0rXLXUt0oFYs8ra4w49wYZBG5GKZpAYsJSm6rnYL5uVDjd+zowwMwVZHnAjf4edNrKpCDYfXDgmRE/Ak7QyQ==}
     engines: {node: '>=12.0.0'}
@@ -1686,6 +1699,10 @@ packages:
     engines: {node: '>=8'}
     dependencies:
       to-regex-range: 5.0.1
+
+  /find-root/1.1.0:
+    resolution: {integrity: sha512-NKfW6bec6GfKc0SGx1e07QZY9PE99u0Bft/0rzSD5k3sO/vwkVUpDUKVm5Gpp5Ue3YfShPFTX2070tDs5kB9Ng==}
+    dev: false
 
   /find-up/4.1.0:
     resolution: {integrity: sha512-PpOwAdQ/YlXQ2vj8a3h8IipDuYRi3wceVQQGYWxNINccq40Anw7BlsEXCMbt1Zt+OLA6Fq9suIpIWD0OsnISlw==}
@@ -2314,6 +2331,10 @@ packages:
   /merge2/1.4.1:
     resolution: {integrity: sha512-8q7VEgMJW4J8tcfVPy8g09NcQwZdbwFEqhe/WZkoIzjn/3TGDwtOCYtXGxA3O8tPzpczCCDgv+P2P5y00ZJOOg==}
     engines: {node: '>= 8'}
+
+  /metric-lcs/0.1.2:
+    resolution: {integrity: sha512-+TZ5dUDPKPJaU/rscTzxyN8ZkX7eAVLAiQU/e+YINleXPv03SCmJShaMT1If1liTH8OcmWXZs0CmzCBRBLcMpA==}
+    dev: false
 
   /micromatch/4.0.5:
     resolution: {integrity: sha512-DMy+ERcEW2q8Z2Po+WNXuw3c5YaUSFjAO5GsJqfEl7UjvtIuFKO6ZrKvcItdy98dwFI2N1tg3zNIdKaQT+aNdA==}

@@ -6,7 +6,7 @@ module.exports = {
         browser: true,
         node: true,
     },
-    plugins: ['html', 'unicorn', 'prettier'],
+    plugins: ['html', 'unicorn', 'notice', 'prettier'],
     extends: ['plugin:jsonc/recommended-with-jsonc', 'plugin:prettier/recommended'],
     overrides: [
         {
@@ -143,6 +143,16 @@ module.exports = {
                 ignoreMemberSort: false,
                 memberSyntaxSortOrder: ['none', 'all', 'multiple', 'single'],
                 allowSeparatedGroups: false,
+            },
+        ],
+
+        'notice/notice': [
+            'error',
+            {
+                template: '/* (c) Copyright Frontify Ltd., all rights reserved. */\n\n',
+                messages: {
+                    whenFailedToMatch: 'No Frontify copyright header set.',
+                },
             },
         ],
     },
