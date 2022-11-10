@@ -1,6 +1,6 @@
 {
     "name": "@frontify/eslint-config-vue2",
-    "version": "0.15.2",
+    "version": "0.15.3",
     "main": "index.js",
     "author": "Frontify Developers <developers@frontify.com>",
     "license": "MIT",
@@ -16,11 +16,17 @@
         "access": "public"
     },
     "peerDependencies": {
-        "eslint": ">=8.27.0"
+        "eslint": ">=8.27.0",
+        "prettier": ">=2.7.0"
+    },
+    "devDependencies": {
+        "eslint": "8.27.0",
+        "prettier": "2.7.1"
     },
     "dependencies": {
-        "@frontify/eslint-config-typescript": "^0.15.2",
+        "@frontify/eslint-config-typescript": "^0.15.3",
         "eslint-plugin-vue": "^9.7.0",
-        "eslint-plugin-vue-scoped-css": "^2.2.0"
+        "eslint-plugin-vue-scoped-css": "^2.2.0",
+        "vue-eslint-parser": "^9.1.0",
     }
 }

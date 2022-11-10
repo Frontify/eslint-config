@@ -1,0 +1,9 @@
+# @frontify/eslint-config-vue2
+
+## 0.15.3
+
+### Patch Changes
+
+-   Updated npm dependencies and use pnpm
+-   Updated dependencies
+    -   @frontify/eslint-config-typescript@0.15.3
