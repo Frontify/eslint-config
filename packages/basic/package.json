@@ -1,6 +1,6 @@
 {
     "name": "@frontify/eslint-config-basic",
-    "version": "0.15.2",
+    "version": "0.15.3",
     "main": "index.js",
     "author": "Frontify Developers <developers@frontify.com>",
     "license": "MIT",
@@ -19,7 +19,12 @@
         "access": "public"
     },
     "peerDependencies": {
-        "eslint": ">=8.27.0"
+        "eslint": ">=8.27.0",
+        "prettier": ">=2.7.0"
+    },
+    "devDependencies": {
+        "eslint": "8.27.0",
+        "prettier": "2.7.1"
     },
     "dependencies": {
         "eslint-config-prettier": "^8.5.0",

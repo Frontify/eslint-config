@@ -1,6 +1,6 @@
 {
     "name": "@frontify/eslint-config-react",
-    "version": "0.15.2",
+    "version": "0.15.3",
     "main": "index.js",
     "author": "Frontify Developers <developers@frontify.com>",
     "license": "MIT",
@@ -17,13 +17,18 @@
     ],
     "peerDependencies": {
         "eslint": ">=8.27.0",
+        "prettier": ">=2.7.0",
         "react": ">=17.0.0"
+    },
+    "devDependencies": {
+        "eslint": "8.27.0",
+        "prettier": "2.7.1"
     },
     "publishConfig": {
         "access": "public"
     },
     "dependencies": {
-        "@frontify/eslint-config-typescript": "^0.15.2",
+        "@frontify/eslint-config-typescript": "^0.15.3",
         "eslint-plugin-react": "^7.31.10",
         "eslint-plugin-react-hooks": "^4.6.0"
     }
