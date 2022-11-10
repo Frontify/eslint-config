@@ -62,7 +62,7 @@ importers:
 
   packages/typescript:
     specifiers:
-      '@frontify/eslint-config-basic': ^0.15.3
+      '@frontify/eslint-config-basic': ^0.16.0
       '@typescript-eslint/eslint-plugin': ^5.42.1
       '@typescript-eslint/parser': ^5.42.1
       eslint: 8.27.0
