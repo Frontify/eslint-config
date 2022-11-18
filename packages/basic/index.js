@@ -184,7 +184,6 @@ module.exports = {
         'unicorn/prefer-default-parameters': 'error',
         'unicorn/prefer-array-find': 'error',
         'unicorn/no-array-for-each': 'error',
-        'unicorn/error-message': 'error',
         'unicorn/custom-error-definition': 'error',
         'unicorn/better-regex': 'error',
         'unicorn/explicit-length-check': 'error',
