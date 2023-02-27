@@ -205,7 +205,5 @@ module.exports = {
                 allowSeparatedGroups: false,
             },
         ],
-
-        'jsonc/no-dupe-keys': 'error',
     },
 };
