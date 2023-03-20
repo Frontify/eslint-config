@@ -1,5 +1,14 @@
 # @frontify/eslint-config-react
 
+## 0.15.7
+
+### Patch Changes
+
+-   9e44623: Update dependencies
+-   fad1d58: Add no useless fragment rule
+-   Updated dependencies [9e44623]
+    -   @frontify/eslint-config-typescript@0.15.7
+
 ## 0.15.6
 
 ### Patch Changes
