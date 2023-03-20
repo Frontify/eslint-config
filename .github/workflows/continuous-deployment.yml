@@ -12,7 +12,7 @@ env:
     CI: true
 
 jobs:
-    tests:
+    continuous-deployment:
         runs-on: ubuntu-latest
         timeout-minutes: 10
 
