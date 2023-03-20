@@ -6,7 +6,7 @@ module.exports = {
         browser: true,
         node: true,
     },
-    plugins: ['html', 'unicorn', 'no-only-tests', 'prettier'],
+    plugins: ['html', 'unicorn', 'no-only-tests', 'lodash', 'prettier'],
     extends: [
         'plugin:jsonc/recommended-with-jsonc',
         'plugin:yml/standard',
@@ -205,5 +205,7 @@ module.exports = {
                 allowSeparatedGroups: false,
             },
         ],
+
+        'lodash/import-scope': [2, 'method'],
     },
 };
