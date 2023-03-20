@@ -1,5 +1,12 @@
 # @frontify/eslint-config-basic
 
+## 0.17.2
+
+### Patch Changes
+
+-   9e44623: Update dependencies
+-   9e44623: Add Lodash full import rule
+
 ## 0.17.1
 
 ### Patch Changes
