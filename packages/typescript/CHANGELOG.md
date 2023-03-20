@@ -1,5 +1,15 @@
 # @frontify/eslint-config-typescript
 
+## 0.15.7
+
+### Patch Changes
+
+-   8a5ea91: Prefer local package
+-   9e44623: Update dependencies
+-   Updated dependencies [9e44623]
+-   Updated dependencies [9e44623]
+    -   @frontify/eslint-config-basic@0.17.2
+
 ## 0.15.6
 
 ### Patch Changes
