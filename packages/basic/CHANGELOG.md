@@ -1,5 +1,13 @@
 # @frontify/eslint-config-basic
 
+## 0.17.3
+
+### Patch Changes
+
+-   0808928: Update dependencies
+-   4597b07: Updated dependencies
+-   ae848fc: Update dependencies
+
 ## 0.17.2
 
 ### Patch Changes
