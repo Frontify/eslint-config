@@ -1,5 +1,11 @@
 # @frontify/eslint-config-basic
 
+## 0.18.0
+
+### Minor Changes
+
+-   773ebbd: Update Prettier 3 and TypeScript 5
+
 ## 0.17.3
 
 ### Patch Changes
