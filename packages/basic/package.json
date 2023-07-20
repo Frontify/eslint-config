@@ -1,7 +1,6 @@
 {
     "name": "@frontify/eslint-config-basic",
     "version": "0.17.3",
-    "main": "index.js",
     "author": "Frontify Developers <developers@frontify.com>",
     "license": "MIT",
     "repository": {
@@ -9,22 +8,19 @@
         "url": "https://github.com/Frontify/eslint-config",
         "directory": "packages/basic"
     },
-    "scripts": {
-        "lint": "eslint . --config=index.js"
-    },
+    "main": "index.js",
     "files": [
         "index.js"
     ],
+    "scripts": {
+        "lint": "eslint . --config=index.js"
+    },
     "publishConfig": {
         "access": "public"
     },
     "peerDependencies": {
         "eslint": ">=8.27.0",
-        "prettier": ">=2.8.0"
-    },
-    "devDependencies": {
-        "eslint": "8.42.0",
-        "prettier": "2.8.8"
+        "prettier": ">=3.0.0"
     },
     "dependencies": {
         "eslint-config-prettier": "^8.8.0",
@@ -34,10 +30,14 @@
         "eslint-plugin-markdown": "^3.0.0",
         "eslint-plugin-no-only-tests": "^3.1.0",
         "eslint-plugin-node": "^11.1.0",
-        "eslint-plugin-prettier": "^4.2.1",
+        "eslint-plugin-prettier": "^5.0.0",
         "eslint-plugin-promise": "^6.1.1",
-        "eslint-plugin-unicorn": "^47.0.0",
+        "eslint-plugin-unicorn": "^48.0.0",
         "eslint-plugin-yml": "^1.8.0",
         "yaml-eslint-parser": "^1.2.2"
+    },
+    "devDependencies": {
+        "eslint": "^8.45.0",
+        "prettier": "^3.0.0"
     }
 }

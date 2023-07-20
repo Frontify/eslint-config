@@ -1,7 +1,6 @@
 {
     "name": "@frontify/eslint-config-vue2",
     "version": "0.15.8",
-    "main": "index.js",
     "author": "Frontify Developers <developers@frontify.com>",
     "license": "MIT",
     "repository": {
@@ -9,6 +8,7 @@
         "url": "https://github.com/Frontify/eslint-config",
         "directory": "packages/vue2"
     },
+    "main": "index.js",
     "files": [
         "index.js"
     ],
@@ -17,16 +17,16 @@
     },
     "peerDependencies": {
         "eslint": ">=8.27.0",
-        "prettier": ">=2.8.0"
-    },
-    "devDependencies": {
-        "eslint": "8.36.0",
-        "prettier": "2.8.5"
+        "prettier": ">=3.0.0"
     },
     "dependencies": {
         "@frontify/eslint-config-typescript": "workspace:*",
         "eslint-plugin-vue": "^9.7.0",
         "eslint-plugin-vue-scoped-css": "^2.2.0",
         "vue-eslint-parser": "^9.1.0"
+    },
+    "devDependencies": {
+        "eslint": "^8.45.0",
+        "prettier": "^3.0.0"
     }
 }
