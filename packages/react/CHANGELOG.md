@@ -1,5 +1,16 @@
 # @frontify/eslint-config-react
 
+## 0.16.0
+
+### Minor Changes
+
+-   773ebbd: Update Prettier 3 and TypeScript 5
+
+### Patch Changes
+
+-   Updated dependencies [773ebbd]
+    -   @frontify/eslint-config-typescript@0.16.0
+
 ## 0.15.8
 
 ### Patch Changes

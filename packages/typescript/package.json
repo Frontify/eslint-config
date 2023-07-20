@@ -1,6 +1,6 @@
 {
     "name": "@frontify/eslint-config-typescript",
-    "version": "0.15.8",
+    "version": "0.16.0",
     "author": "Frontify Developers <developers@frontify.com>",
     "license": "MIT",
     "repository": {
