@@ -1,5 +1,12 @@
 # @frontify/eslint-config-vue2
 
+## 0.16.1
+
+### Patch Changes
+
+-   Updated dependencies [93ed121]
+    -   @frontify/eslint-config-typescript@0.16.1
+
 ## 0.16.0
 
 ### Minor Changes
