@@ -1,5 +1,11 @@
 # @frontify/eslint-config-typescript
 
+## 0.16.1
+
+### Patch Changes
+
+-   93ed121: Lower level of `any` to warning for now
+
 ## 0.16.0
 
 ### Minor Changes
