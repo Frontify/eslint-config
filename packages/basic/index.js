@@ -6,7 +6,7 @@ module.exports = {
         browser: true,
         node: true,
     },
-    plugins: ['html', 'unicorn', 'no-only-tests', 'lodash', 'prettier'],
+    plugins: ['html', 'unicorn', 'no-only-tests', 'promise', 'lodash', 'prettier'],
     extends: [
         'plugin:jsonc/recommended-with-jsonc',
         'plugin:yml/standard',
@@ -195,6 +195,9 @@ module.exports = {
         'unicorn/no-unsafe-regex': 'error',
         'unicorn/no-useless-length-check': 'error',
         'unicorn/catch-error-name': 'error',
+
+        'promise/prefer-await-to-then': 'error',
+        'promise/param-names': 'error',
 
         'sort-imports': [
             'error',
