@@ -22,12 +22,12 @@
     },
     "dependencies": {
         "@frontify/eslint-config-basic": "workspace:*",
-        "@typescript-eslint/eslint-plugin": "^6.1.0",
-        "@typescript-eslint/parser": "^6.1.0"
+        "@typescript-eslint/eslint-plugin": "^6.6.0",
+        "@typescript-eslint/parser": "^6.6.0"
     },
     "devDependencies": {
-        "eslint": "^8.45.0",
-        "prettier": "^3.0.0",
-        "typescript": "^5.1.6"
+        "eslint": "^8.48.0",
+        "prettier": "^3.0.3",
+        "typescript": "^5.2.2"
     }
 }
