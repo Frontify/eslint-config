@@ -1,5 +1,14 @@
 # @frontify/eslint-config-typescript
 
+## 0.16.2
+
+### Patch Changes
+
+-   6289fb0: Update dependencies
+-   Updated dependencies [6289fb0]
+-   Updated dependencies [74dc6d0]
+    -   @frontify/eslint-config-basic@0.18.1
+
 ## 0.16.1
 
 ### Patch Changes

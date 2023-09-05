@@ -1,5 +1,12 @@
 # @frontify/eslint-config-basic
 
+## 0.18.1
+
+### Patch Changes
+
+-   6289fb0: Update dependencies
+-   74dc6d0: Prefer `async`/`await` to `.then`
+
 ## 0.18.0
 
 ### Minor Changes
