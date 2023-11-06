@@ -1,5 +1,13 @@
 # @frontify/eslint-config-basic
 
+## 0.19.0-next.0
+
+### Minor Changes
+
+-   3d602bd: Inline TypeScript rules
+-   3d602bd: Add more rules for formatting and code style
+-   3d602bd: Update depedencies
+
 ## 0.18.1
 
 ### Patch Changes
