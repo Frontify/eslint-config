@@ -80,7 +80,7 @@ module.exports = {
                 '@typescript-eslint/require-await': 'error',
                 '@typescript-eslint/restrict-plus-operands': 'error',
                 '@typescript-eslint/restrict-template-expressions': 'error',
-                '@typescript-eslint/unbound-method': 'error',
+                '@typescript-eslint/unbound-method': 'off',
                 '@typescript-eslint/no-unused-vars': ['error', { argsIgnorePattern: '^_', varsIgnorePattern: '^_' }],
                 '@typescript-eslint/consistent-type-imports': [
                     'warn',
@@ -212,6 +212,7 @@ module.exports = {
             rules: {
                 'no-unused-expressions': 'off',
                 'no-only-tests/no-only-tests': 'error',
+                '@typescript-eslint/unbound-method': 'off', // Allows to use `vi.fn()` or spy/mock in tests
             },
         },
         {
