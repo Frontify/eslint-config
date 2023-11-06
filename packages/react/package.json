@@ -24,12 +24,13 @@
         "react": ">=18.0.0"
     },
     "dependencies": {
-        "@frontify/eslint-config-typescript": "workspace:*",
-        "eslint-plugin-react": "^7.32.2",
+        "@frontify/eslint-config-basic": "workspace:^",
+        "eslint-plugin-jsx-a11y": "^6.8.0",
+        "eslint-plugin-react": "^7.33.2",
         "eslint-plugin-react-hooks": "^4.6.0"
     },
     "devDependencies": {
-        "eslint": "^8.48.0",
+        "eslint": "^8.53.0",
         "prettier": "^3.0.3"
     }
 }

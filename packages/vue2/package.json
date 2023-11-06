@@ -20,13 +20,13 @@
         "prettier": ">=3.0.0"
     },
     "dependencies": {
-        "@frontify/eslint-config-typescript": "workspace:*",
-        "eslint-plugin-vue": "^9.7.0",
-        "eslint-plugin-vue-scoped-css": "^2.2.0",
-        "vue-eslint-parser": "^9.1.0"
+        "@frontify/eslint-config-basic": "workspace:^",
+        "eslint-plugin-vue": "^9.18.1",
+        "eslint-plugin-vue-scoped-css": "^2.5.1",
+        "vue-eslint-parser": "^9.3.2"
     },
     "devDependencies": {
-        "eslint": "^8.48.0",
+        "eslint": "^8.53.0",
         "prettier": "^3.0.3"
     }
 }
