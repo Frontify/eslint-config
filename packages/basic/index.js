@@ -59,9 +59,13 @@ module.exports = {
             rules: {
                 // As we're using @typescript-eslint it's recommended to turn off
                 // the standard eslint rule for unused variables and use the @typescript-eslint rule instead.
-                // See here: https://github.com/typescript-eslint/typescript-eslint/blob/master/packages/eslint-plugin/docs/rules/no-unused-vars.md
+                // See here: https://typescript-eslint.io/rules/no-unused-vars/
                 'no-unused-vars': 'off',
                 '@typescript-eslint/no-unused-vars': 'error',
+
+                // Allow overload of functions: https://typescript-eslint.io/rules/no-dupe-class-members/
+                'no-dupe-class-members': 'off',
+                '@typescript-eslint/no-dupe-class-members': 'error',
 
                 '@typescript-eslint/no-explicit-any': 'warn',
                 'no-throw-literal': 'off',
