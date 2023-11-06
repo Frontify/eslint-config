@@ -1,6 +1,6 @@
 {
     "name": "@frontify/eslint-config-vue2",
-    "version": "0.16.2",
+    "version": "0.17.0-next.0",
     "author": "Frontify Developers <developers@frontify.com>",
     "license": "MIT",
     "repository": {

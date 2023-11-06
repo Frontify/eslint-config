@@ -1,5 +1,19 @@
 # @frontify/eslint-config-vue2
 
+## 0.17.0-next.0
+
+### Minor Changes
+
+-   3d602bd: Delete dependency on own ESLint TypeScript package
+-   3d602bd: Update depedencies
+
+### Patch Changes
+
+-   Updated dependencies [3d602bd]
+-   Updated dependencies [3d602bd]
+-   Updated dependencies [3d602bd]
+    -   @frontify/eslint-config-basic@0.19.0-next.0
+
 ## 0.16.2
 
 ### Patch Changes
