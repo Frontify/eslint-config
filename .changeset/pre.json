@@ -7,9 +7,11 @@
     "@frontify/eslint-config-vue2": "0.16.2"
   },
   "changesets": [
+    "angry-countries-provide",
     "cool-bees-smoke",
     "forty-bees-report",
     "popular-taxis-cry",
-    "tiny-cycles-stare"
+    "tiny-cycles-stare",
+    "witty-terms-deny"
   ]
 }

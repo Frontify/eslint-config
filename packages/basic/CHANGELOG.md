@@ -1,5 +1,12 @@
 # @frontify/eslint-config-basic
 
+## 0.19.0-next.1
+
+### Patch Changes
+
+-   e03a502: Allow tests files to spy/mock method with lint issue
+-   2dd2948: Allow TypeScript function overloads
+
 ## 0.19.0-next.0
 
 ### Minor Changes
