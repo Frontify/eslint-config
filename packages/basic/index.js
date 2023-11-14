@@ -88,7 +88,7 @@ module.exports = {
                 '@typescript-eslint/no-unused-vars': ['error', { argsIgnorePattern: '^_', varsIgnorePattern: '^_' }],
                 '@typescript-eslint/consistent-type-imports': [
                     'warn',
-                    { prefer: 'type-imports', fixStyle: 'separate-type-imports' },
+                    { prefer: 'type-imports', fixStyle: 'inline-type-imports' },
                 ],
                 '@typescript-eslint/no-misused-promises': [2, { checksVoidReturn: { attributes: false } }],
             },
@@ -350,6 +350,10 @@ module.exports = {
             {
                 groups: ['builtin', 'external', 'internal', 'parent', 'sibling', 'index', 'object', 'type'],
                 'newlines-between': 'always',
+                alphabetize: {
+                    order: 'asc',
+                    caseInsensitive: false,
+                },
             },
         ],
         'import/prefer-default-export': 'off',
