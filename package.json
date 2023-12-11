@@ -13,10 +13,10 @@
         "publish": "pnpm publish -r --access public"
     },
     "devDependencies": {
-        "@changesets/cli": "^2.26.2",
-        "eslint": "8.53.0",
-        "prettier": "^3.0.3",
-        "typescript": "^5.2.2"
+        "@changesets/cli": "^2.27.1",
+        "eslint": "8.55.0",
+        "prettier": "^3.1.1",
+        "typescript": "^5.3.3"
     },
     "eslintConfig": {
         "root": true,
