@@ -8,7 +8,6 @@ on:
 concurrency: ${{ github.workflow }}-${{ github.ref }}
 
 env:
-    NODE_VERSION: 18
     CI: true
 
 jobs:
@@ -18,17 +17,17 @@ jobs:
 
         steps:
             - name: Checkout default branch
-              uses: actions/checkout@v3
+              uses: actions/checkout@v4
 
             - name: Use pnpm
               uses: pnpm/action-setup@v2
               with:
                   version: latest
 
-            - name: Use Node.js ${{ env.NODE_VERSION }}
-              uses: actions/setup-node@v3
+            - name: Use Node.js
+              uses: actions/setup-node@v4
               with:
-                  node-version: ${{ env.NODE_VERSION }}
+                  node-version-file: '.nvmrc'
                   cache: 'pnpm'
 
             - name: Install npm dependencies
