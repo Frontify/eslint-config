@@ -1,5 +1,11 @@
 # @frontify/eslint-config-basic
 
+## 0.19.0-next.3
+
+### Patch Changes
+
+- c95fdcd: fix: disable typescript eslint for json
+
 ## 0.19.0-next.2
 
 ### Patch Changes
