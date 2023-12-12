@@ -10,8 +10,10 @@ module.exports = {
     plugins: ['@typescript-eslint', 'unicorn', 'no-only-tests', 'promise', 'lodash', 'prettier'],
     extends: [
         'eslint:recommended',
+        'plugin:@typescript-eslint/recommended',
+        'plugin:@typescript-eslint/recommended-type-checked',
         'plugin:eslint-comments/recommended',
-        'plugin:jsonc/recommended-with-jsonc',
+        'plugin:jsonc/recommended-with-json',
         'plugin:yml/standard',
         'plugin:markdown/recommended',
         'plugin:import/recommended',
@@ -94,7 +96,8 @@ module.exports = {
             },
         },
         {
-            files: ['*.json', '*.json5'],
+            files: ['*.json'],
+            extends: ['plugin:@typescript-eslint/disable-type-checked'],
             parser: 'jsonc-eslint-parser',
             rules: {
                 quotes: ['error', 'double'],
@@ -124,6 +127,7 @@ module.exports = {
         {
             files: ['package.json'],
             parser: 'jsonc-eslint-parser',
+            extends: ['plugin:@typescript-eslint/disable-type-checked'],
             rules: {
                 'jsonc/sort-keys': [
                     'error',
