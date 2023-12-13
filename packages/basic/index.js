@@ -89,7 +89,7 @@ module.exports = {
                 '@typescript-eslint/unbound-method': 'off',
                 '@typescript-eslint/no-unused-vars': ['error', { argsIgnorePattern: '^_', varsIgnorePattern: '^_' }],
                 '@typescript-eslint/consistent-type-imports': [
-                    'warn',
+                    'error',
                     { prefer: 'type-imports', fixStyle: 'inline-type-imports' },
                 ],
                 '@typescript-eslint/no-misused-promises': [2, { checksVoidReturn: { attributes: false } }],
@@ -216,6 +216,14 @@ module.exports = {
                 '*.spec.tsx',
                 '*.spec.js',
                 '*.spec.jsx',
+                '*.spec.cy.ts',
+                '*.spec.cy.tsx',
+                '*.spec.cy.js',
+                '*.spec.cy.jsx',
+                '*.spec.ct.ts',
+                '*.spec.ct.tsx',
+                '*.spec.ct.js',
+                '*.spec.ct.jsx',
             ],
             rules: {
                 'no-unused-expressions': 'off',
