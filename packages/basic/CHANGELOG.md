@@ -1,5 +1,13 @@
 # @frontify/eslint-config-basic
 
+## 0.19.0-next.4
+
+### Patch Changes
+
+- 4ab1b0b: Promote type import to error level
+- 234e85c: Turn off import rules handled by TypeScript ESLint already
+- 4ab1b0b: Support more test file extensions
+
 ## 0.19.0-next.3
 
 ### Patch Changes
