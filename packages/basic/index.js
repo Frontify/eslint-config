@@ -357,6 +357,8 @@ module.exports = {
         'import/exports-last': 'off',
         'import/no-namespace': 'off',
         'import/extensions': 'off',
+        'import/namespace': 'off',
+        'import/default': 'off',
         'import/order': [
             'error',
             {
