@@ -63,15 +63,13 @@ module.exports = {
                 // the standard eslint rule for unused variables and use the @typescript-eslint rule instead.
                 // See here: https://typescript-eslint.io/rules/no-unused-vars/
                 'no-unused-vars': 'off',
-                '@typescript-eslint/no-unused-vars': 'error',
+                '@typescript-eslint/no-unused-vars': ['error', { argsIgnorePattern: '^_', varsIgnorePattern: '^_' }],
 
                 // Allow overload of functions: https://typescript-eslint.io/rules/no-dupe-class-members/
                 'no-dupe-class-members': 'off',
                 '@typescript-eslint/no-dupe-class-members': 'error',
 
                 '@typescript-eslint/no-explicit-any': 'warn',
-                'no-throw-literal': 'off',
-                '@typescript-eslint/no-throw-literal': 'error',
                 'no-implied-eval': 'off',
                 '@typescript-eslint/no-implied-eval': 'error',
                 'dot-notation': 'off',
@@ -87,7 +85,6 @@ module.exports = {
                 '@typescript-eslint/restrict-plus-operands': 'error',
                 '@typescript-eslint/restrict-template-expressions': 'error',
                 '@typescript-eslint/unbound-method': 'off',
-                '@typescript-eslint/no-unused-vars': ['error', { argsIgnorePattern: '^_', varsIgnorePattern: '^_' }],
                 '@typescript-eslint/consistent-type-imports': [
                     'error',
                     { prefer: 'type-imports', fixStyle: 'inline-type-imports' },
@@ -256,16 +253,12 @@ module.exports = {
         // Eslint prettier
         'prettier/prettier': 'error',
         'arrow-body-style': 'off', // Problematic with Prettier
-        'prefer-arrow-callback': 'off', // Problematic with Prettier
 
         // Eslint (base)
         'linebreak-style': ['error', 'unix'],
         'prefer-template': 'error',
         'template-curly-spacing': 'error',
-        'no-useless-concat': 'error',
-        'prefer-arrow-callback': 'error',
         'no-var': 'error',
-        'prefer-const': 'error',
         eqeqeq: 'error',
         'no-eval': 'error',
         'no-extra-bind': 'error',
@@ -287,9 +280,7 @@ module.exports = {
         'no-case-declarations': 'error',
         'no-multi-spaces': 'error',
         'no-multi-str': 'error',
-        'no-with': 'error',
         'no-void': 'error',
-        'no-useless-escape': 'off',
         'no-invalid-this': 'error',
         'require-await': 'off',
         'no-return-assign': 'off',
