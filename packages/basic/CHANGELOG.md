@@ -1,5 +1,12 @@
 # @frontify/eslint-config-basic
 
+## 0.19.0-next.5
+
+### Patch Changes
+
+- c4ece5b: Remove duplicated and conflicting rules
+- c4ece5b: Remove `no-throw-literal` for React Suspense where we need to throw Promises
+
 ## 0.19.0-next.4
 
 ### Patch Changes
