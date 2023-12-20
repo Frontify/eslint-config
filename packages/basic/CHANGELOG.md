@@ -1,5 +1,27 @@
 # @frontify/eslint-config-basic
 
+## 0.19.0
+
+### Minor Changes
+
+- 3d602bd: Inline TypeScript rules
+- 3d602bd: Add more rules for formatting and code style
+- 3d602bd: Update depedencies
+
+### Patch Changes
+
+- e03a502: Allow tests files to spy/mock method with lint issue
+- 11b626a: Update dependencies
+- c95fdcd: fix: disable typescript eslint for json
+- c4ece5b: Remove duplicated and conflicting rules
+- 4ab1b0b: Promote type import to error level
+- 9b8deee: Update dependencies
+- 890c517: Prefer inline TypeScript `type`
+- 234e85c: Turn off import rules handled by TypeScript ESLint already
+- c4ece5b: Remove `no-throw-literal` for React Suspense where we need to throw Promises
+- 4ab1b0b: Support more test file extensions
+- 2dd2948: Allow TypeScript function overloads
+
 ## 0.19.0-next.6
 
 ### Patch Changes
