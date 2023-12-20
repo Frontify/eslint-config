@@ -1,5 +1,33 @@
 # @frontify/eslint-config-react
 
+## 0.17.0
+
+### Minor Changes
+
+- 3d602bd: Delete dependency on own ESLint TypeScript package
+- 3d602bd: Add more rules for formatting and code style
+- 3d602bd: Update depedencies
+
+### Patch Changes
+
+- 11b626a: Update dependencies
+- 9b8deee: Update dependencies
+- Updated dependencies [e03a502]
+- Updated dependencies [11b626a]
+- Updated dependencies [c95fdcd]
+- Updated dependencies [c4ece5b]
+- Updated dependencies [4ab1b0b]
+- Updated dependencies [3d602bd]
+- Updated dependencies [9b8deee]
+- Updated dependencies [890c517]
+- Updated dependencies [234e85c]
+- Updated dependencies [c4ece5b]
+- Updated dependencies [3d602bd]
+- Updated dependencies [4ab1b0b]
+- Updated dependencies [3d602bd]
+- Updated dependencies [2dd2948]
+  - @frontify/eslint-config-basic@0.19.0
+
 ## 0.17.0-next.6
 
 ### Patch Changes
