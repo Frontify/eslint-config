@@ -1,5 +1,14 @@
 # @frontify/eslint-config-vue2
 
+## 0.17.1
+
+### Patch Changes
+
+- ae1af03: chore: update dependencies
+- Updated dependencies [ae1af03]
+- Updated dependencies [6839cd7]
+  - @frontify/eslint-config-basic@0.20.0
+
 ## 0.17.0
 
 ### Minor Changes
