@@ -1,5 +1,15 @@
 # @frontify/eslint-config-basic
 
+## 0.20.0
+
+### Minor Changes
+
+- 6839cd7: feat: support of HTML linting
+
+### Patch Changes
+
+- ae1af03: chore: update dependencies
+
 ## 0.19.0
 
 ### Minor Changes
