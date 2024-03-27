@@ -1,5 +1,11 @@
 # @frontify/eslint-config-basic
 
+## 0.20.1
+
+### Patch Changes
+
+- 40d25df: fix: issue with the markdown plugin infinite looping
+
 ## 0.20.0
 
 ### Minor Changes
