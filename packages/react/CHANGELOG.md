@@ -1,5 +1,12 @@
 # @frontify/eslint-config-react
 
+## 0.17.2
+
+### Patch Changes
+
+- Updated dependencies [40d25df]
+  - @frontify/eslint-config-basic@0.20.1
+
 ## 0.17.1
 
 ### Patch Changes
