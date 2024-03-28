@@ -131,6 +131,7 @@ module.exports = {
                 '@html-eslint/no-extra-spacing-attrs': ['error', { enforceBeforeSelfClose: true }],
                 // Conflict with Prettier
                 '@html-eslint/require-closing-tags': 'off',
+                'spaced-comment': 'off',
             },
         },
         {
