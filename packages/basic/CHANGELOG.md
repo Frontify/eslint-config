@@ -1,5 +1,11 @@
 # @frontify/eslint-config-basic
 
+## 0.20.4
+
+### Patch Changes
+
+- ca3bc5f: chore: update dependencies
+
 ## 0.20.3
 
 ### Patch Changes
