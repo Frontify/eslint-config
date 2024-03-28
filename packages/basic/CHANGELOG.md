@@ -1,5 +1,11 @@
 # @frontify/eslint-config-basic
 
+## 0.20.3
+
+### Patch Changes
+
+- c970a2e: fix: downgrade html-eslint
+
 ## 0.20.2
 
 ### Patch Changes
