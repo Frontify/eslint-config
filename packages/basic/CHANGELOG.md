@@ -1,5 +1,11 @@
 # @frontify/eslint-config-basic
 
+## 0.20.5
+
+### Patch Changes
+
+- 51d994f: fix: remove `html` plugin
+
 ## 0.20.4
 
 ### Patch Changes
