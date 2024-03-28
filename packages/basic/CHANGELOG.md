@@ -1,5 +1,11 @@
 # @frontify/eslint-config-basic
 
+## 0.20.2
+
+### Patch Changes
+
+- 4c66587: fix: issue with spaced comments in html
+
 ## 0.20.1
 
 ### Patch Changes
