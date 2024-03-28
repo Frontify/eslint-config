@@ -23,8 +23,8 @@
         "prettier": ">=3.0.0"
     },
     "dependencies": {
-        "@html-eslint/eslint-plugin": "0.22.0",
-        "@html-eslint/parser": "0.22.0",
+        "@html-eslint/eslint-plugin": "^0.24.0",
+        "@html-eslint/parser": "^0.24.0",
         "@typescript-eslint/eslint-plugin": "^7.4.0",
         "@typescript-eslint/parser": "^7.4.0",
         "eslint-config-prettier": "^9.1.0",
