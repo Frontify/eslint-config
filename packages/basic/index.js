@@ -7,7 +7,7 @@ module.exports = {
         browser: true,
         node: true,
     },
-    plugins: ['@typescript-eslint', '@html-eslint', 'unicorn', 'no-only-tests', 'promise', 'lodash', 'prettier'],
+    plugins: ['@typescript-eslint', 'unicorn', 'no-only-tests', 'promise', 'lodash', 'prettier'],
     extends: [
         'eslint:recommended',
         'plugin:@typescript-eslint/recommended',
@@ -119,19 +119,6 @@ module.exports = {
                 'yml/quotes': ['error', { prefer: 'single', avoidEscape: false }],
                 'yml/no-empty-document': 'off',
                 'yml/indent': ['error', 4, { indicatorValueIndent: 2 }],
-            },
-        },
-        {
-            files: ['*.html'],
-            parser: '@html-eslint/parser',
-            extends: ['plugin:@typescript-eslint/disable-type-checked', 'plugin:@html-eslint/recommended'],
-            rules: {
-                'prettier/prettier': ['error', { parser: 'html' }],
-                '@html-eslint/indent': ['error', 4],
-                '@html-eslint/no-extra-spacing-attrs': ['error', { enforceBeforeSelfClose: true }],
-                // Conflict with Prettier
-                '@html-eslint/require-closing-tags': 'off',
-                'spaced-comment': 'off',
             },
         },
         {

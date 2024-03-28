@@ -19,9 +19,9 @@
         "access": "public"
     },
     "peerDependencies": {
-        "eslint": ">=8.27.0",
-        "prettier": ">=3.0.0",
-        "react": ">=18.2.0"
+        "eslint": "^8.26.0",
+        "prettier": "^3.0.0",
+        "react": "^18.2.0"
     },
     "dependencies": {
         "@frontify/eslint-config-basic": "workspace:^",
