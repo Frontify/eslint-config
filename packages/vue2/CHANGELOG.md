@@ -1,5 +1,12 @@
 # @frontify/eslint-config-vue2
 
+## 0.17.3
+
+### Patch Changes
+
+- Updated dependencies [4c66587]
+  - @frontify/eslint-config-basic@0.20.2
+
 ## 0.17.2
 
 ### Patch Changes
