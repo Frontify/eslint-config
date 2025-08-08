@@ -26,6 +26,9 @@ export default tseslint.config(
         },
     },
     {
+        linterOptions: {
+            reportUnusedDisableDirectives: true,
+        },
         files: ['**/*.{js,jsx,ts,tsx}'],
         rules: {
             'no-restricted-syntax': [
@@ -43,7 +46,6 @@ export default tseslint.config(
             '@eslint-react/no-children-map': 'off',
             '@eslint-react/no-children-to-array': 'off',
             '@eslint-react/no-class-component': 'error',
-            '@eslint-react/no-complex-conditional-rendering': 'error',
             '@eslint-react/no-create-ref': 'error',
             '@eslint-react/no-duplicate-key': 'error',
             '@eslint-react/no-implicit-key': 'error',
@@ -53,13 +55,13 @@ export default tseslint.config(
             '@eslint-react/no-unstable-context-value': 'error',
             '@eslint-react/no-useless-fragment': 'error',
             '@eslint-react/no-unused-props': 'error',
+            '@eslint-react/no-unnecessary-use-prefix': 'error',
             '@eslint-react/prefer-shorthand-boolean': 'error',
             '@eslint-react/prefer-react-namespace-import': 'error',
             '@eslint-react/dom/no-missing-button-type': 'error',
             '@eslint-react/dom/no-missing-iframe-sandbox': 'error',
             '@eslint-react/hooks-extra/no-unnecessary-use-callback': 'error',
             '@eslint-react/hooks-extra/no-unnecessary-use-memo': 'error',
-            '@eslint-react/hooks-extra/no-unnecessary-use-prefix': 'error',
             '@eslint-react/hooks-extra/prefer-use-state-lazy-initialization': 'error',
             '@eslint-react/naming-convention/component-name': ['error', 'PascalCase'],
             '@eslint-react/naming-convention/context-name': 'error',
@@ -88,7 +90,7 @@ export default tseslint.config(
             '**/*.spec.ct.jsx',
         ],
         rules: {
-            '@eslint-react/hooks-extra/no-unnecessary-use-prefix': 'off',
+            '@eslint-react/no-unnecessary-use-prefix': 'off',
         },
     },
 );
