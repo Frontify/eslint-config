@@ -1,3 +1,5 @@
+/* (c) Copyright Frontify Ltd., all rights reserved. */
+
 // @ts-check
 
 import eslint from '@eslint/js';
