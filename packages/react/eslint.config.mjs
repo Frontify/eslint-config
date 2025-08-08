@@ -58,7 +58,7 @@ export default tseslint.config(
             '@eslint-react/no-useless-fragment': 'error',
             '@eslint-react/no-unused-props': 'error',
             '@eslint-react/no-unnecessary-use-prefix': 'error',
-            '@eslint-react/prefer-shorthand-boolean': 'error',
+            '@eslint-react/prefer-shorthand-boolean': 'warn',
             '@eslint-react/prefer-react-namespace-import': 'error',
             '@eslint-react/dom/no-missing-button-type': 'error',
             '@eslint-react/dom/no-missing-iframe-sandbox': 'error',
@@ -93,6 +93,7 @@ export default tseslint.config(
         ],
         rules: {
             '@eslint-react/no-unnecessary-use-prefix': 'off',
+            '@eslint-react/no-create-ref': 'off',
         },
     },
 );
