@@ -52,6 +52,7 @@ export default tseslint.config(
             '@eslint-react/no-missing-context-display-name': 'error',
             '@eslint-react/no-unstable-context-value': 'error',
             '@eslint-react/no-useless-fragment': 'error',
+            '@eslint-react/no-unused-props': 'error',
             '@eslint-react/prefer-shorthand-boolean': 'error',
             '@eslint-react/prefer-react-namespace-import': 'error',
             '@eslint-react/dom/no-missing-button-type': 'error',
