@@ -3,14 +3,14 @@
 import eslintPluginReact from '@eslint-react/eslint-plugin';
 import basicConfig from '@frontify/eslint-config-basic';
 // @ts-expect-error No types available
-import eslintPluginJsxA11y from 'eslint-plugin-jsx-a11y';
+import eslintPluginJsxA11yX from 'eslint-plugin-jsx-a11y-x';
 import eslintPluginReactHooks from 'eslint-plugin-react-hooks';
 import tseslint from 'typescript-eslint';
 
 export default tseslint.config(
     basicConfig,
     // eslint-disable-next-line @typescript-eslint/no-unsafe-member-access, @typescript-eslint/no-unsafe-argument
-    eslintPluginJsxA11y.flatConfigs.recommended,
+    eslintPluginJsxA11yX.flatConfigs.recommended,
     eslintPluginReact.configs['recommended-type-checked'],
     eslintPluginReactHooks.configs['recommended-latest'],
     {
