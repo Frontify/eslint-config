@@ -1,5 +1,6 @@
 {
     "name": "@frontify/eslint-config-react",
+    "type": "module",
     "version": "0.17.7",
     "author": "Frontify Developers <developers@frontify.com>",
     "license": "MIT",
@@ -8,29 +9,30 @@
         "url": "https://github.com/Frontify/eslint-config",
         "directory": "packages/react"
     },
-    "main": "index.js",
+    "main": "eslint.config.mjs",
     "files": [
-        "index.js"
+        "eslint.config.mjs"
     ],
     "scripts": {
-        "lint": "eslint . --config=index.js"
+        "lint": "eslint ."
     },
     "publishConfig": {
         "access": "public"
     },
     "peerDependencies": {
-        "eslint": "^8.0.0",
+        "eslint": "^9.0.0",
         "prettier": "^3.0.0",
-        "react": "^18.2.0"
+        "react": "^18 || ^19"
     },
     "dependencies": {
+        "@eslint-react/eslint-plugin": "^2.0.0-beta.23",
         "@frontify/eslint-config-basic": "workspace:^",
-        "eslint-plugin-jsx-a11y": "^6.9.0",
-        "eslint-plugin-react": "^7.34.3",
-        "eslint-plugin-react-hooks": "^4.6.2"
+        "eslint-plugin-jsx-a11y-x": "^0.1.1",
+        "globals": "^16.3.0",
+        "typescript-eslint": "^8.39.0"
     },
     "devDependencies": {
-        "eslint": "^8.57.0",
-        "prettier": "^3.3.2"
+        "eslint": "^9.32.0",
+        "prettier": "^3.6.2"
     }
 }
