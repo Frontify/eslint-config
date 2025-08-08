@@ -1,5 +1,11 @@
 # @frontify/eslint-config-react
 
+## 1.0.1
+
+### Patch Changes
+
+- [`657d728`](https://github.com/Frontify/eslint-config/commit/657d7285624c66acda738d56f5c60516b989ed5d) Thanks [@SamuelAlev](https://github.com/SamuelAlev)! - fix: add missing react-hook dependency
+
 ## 1.0.0
 
 ### Major Changes
