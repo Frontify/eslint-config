@@ -1,17 +1,17 @@
 {
     "compilerOptions": {
-        "strict": true,
-        "noImplicitReturns": true,
-        "module": "es2022",
-        "moduleResolution": "Bundler",
-        "target": "ESNext",
+        "allowJs": true,
+        "allowSyntheticDefaultImports": true,
         "baseUrl": ".",
         "esModuleInterop": true,
-        "skipLibCheck": true,
-        "allowJs": true,
+        "module": "es2022",
+        "moduleResolution": "Bundler",
+        "noEmit": true,
+        "noImplicitReturns": true,
         "resolveJsonModule": true,
-        "allowSyntheticDefaultImports": true,
-        "noEmit": true
+        "skipLibCheck": true,
+        "strict": true,
+        "target": "ESNext"
     },
     "include": ["eslint.config.mjs", "package.json"]
 }
