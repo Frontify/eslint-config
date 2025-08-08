@@ -1,0 +1,17 @@
+{
+    "compilerOptions": {
+        "strict": true,
+        "noImplicitReturns": true,
+        "module": "es2022",
+        "moduleResolution": "Bundler",
+        "target": "ESNext",
+        "baseUrl": ".",
+        "esModuleInterop": true,
+        "skipLibCheck": true,
+        "allowJs": true,
+        "resolveJsonModule": true,
+        "allowSyntheticDefaultImports": true,
+        "noEmit": true
+    },
+    "include": ["eslint.config.mjs", "package.json"]
+}

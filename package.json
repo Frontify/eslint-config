@@ -2,6 +2,7 @@
     "name": "@frontify/eslint-config-monorepo",
     "version": "0.0.1",
     "private": true,
+    "packageManager": "pnpm@10.14.0",
     "author": "Frontify Developers <developers@frontify.com>",
     "license": "MIT",
     "repository": {
@@ -13,17 +14,10 @@
         "publish": "pnpm publish -r --access public"
     },
     "devDependencies": {
-        "@changesets/changelog-github": "^0.5.0",
-        "@changesets/cli": "^2.27.7",
-        "eslint": "^8.57.0",
-        "prettier": "^3.3.2",
-        "typescript": "^5.5.3"
-    },
-    "eslintConfig": {
-        "root": true,
-        "extends": [
-            "./packages/basic/index.js"
-        ]
-    },
-    "packageManager": "pnpm@9.5.0+sha512.140036830124618d624a2187b50d04289d5a087f326c9edfc0ccd733d76c4f52c3a313d4fc148794a2a9d81553016004e6742e8cf850670268a7387fc220c903"
+        "@changesets/changelog-github": "^0.5.1",
+        "@changesets/cli": "^2.29.5",
+        "eslint": "^9.32.0",
+        "prettier": "^3.6.2",
+        "typescript": "^5.9.2"
+    }
 }
