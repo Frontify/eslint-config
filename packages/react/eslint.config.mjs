@@ -93,7 +93,11 @@ export default tseslint.config(
         ],
         rules: {
             '@eslint-react/no-unnecessary-use-prefix': 'off',
+            '@eslint-react/no-missing-context-display-name': 'off',
             '@eslint-react/no-create-ref': 'off',
+            '@eslint-react/no-unstable-context-value': 'off',
+            'jsx-a11y-x/no-static-element-interactions': 'off',
+            'jsx-a11y-x/click-events-have-key-events': 'off',
         },
     },
 );

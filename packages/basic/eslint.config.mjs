@@ -301,6 +301,7 @@ export default tseslint.config(
             'yml/quotes': ['error', { prefer: 'single', avoidEscape: false }],
             'yml/no-empty-document': 'off',
             'yml/indent': ['error', 4, { indicatorValueIndent: 2 }],
+            '@stylistic/spaced-comment': 'off', // False positive
         },
     },
     {
