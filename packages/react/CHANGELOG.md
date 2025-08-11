@@ -1,5 +1,16 @@
 # @frontify/eslint-config-react
 
+## 1.0.2
+
+### Patch Changes
+
+- [`a9bab63`](https://github.com/Frontify/eslint-config/commit/a9bab63cb75bb4ab3dc31aa65c583d93e67ddcd0) Thanks [@SamuelAlev](https://github.com/SamuelAlev)! - fix: prevent yaml/yml comment bug
+
+- [`a9bab63`](https://github.com/Frontify/eslint-config/commit/a9bab63cb75bb4ab3dc31aa65c583d93e67ddcd0) Thanks [@SamuelAlev](https://github.com/SamuelAlev)! - fix: adapt rules for testing
+
+- Updated dependencies [[`a9bab63`](https://github.com/Frontify/eslint-config/commit/a9bab63cb75bb4ab3dc31aa65c583d93e67ddcd0), [`a9bab63`](https://github.com/Frontify/eslint-config/commit/a9bab63cb75bb4ab3dc31aa65c583d93e67ddcd0)]:
+    - @frontify/eslint-config-basic@1.0.1
+
 ## 1.0.1
 
 ### Patch Changes
