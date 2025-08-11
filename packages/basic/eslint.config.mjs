@@ -301,7 +301,8 @@ export default tseslint.config(
             'yml/quotes': ['error', { prefer: 'single', avoidEscape: false }],
             'yml/no-empty-document': 'off',
             'yml/indent': ['error', 4, { indicatorValueIndent: 2 }],
-            '@stylistic/spaced-comment': 'off', // False positive
+            '@stylistic/spaced-comment': 'off', // False positive in yaml/yml files
+            'yml/no-empty-mapping-value': 'off', // Breaks comments on GitHub Actions
         },
     },
     {
@@ -431,4 +432,10 @@ export default tseslint.config(
         ],
     },
     eslintPluginPrettierRecommended,
+    {
+        files: ['**/*.ts', '**/*.tsx', '**/*.mts', '**/*.cts'],
+        rules: {
+            curly: ['error', 'all'], // Override Prettier feelings about curly braces.
+        },
+    },
 );
