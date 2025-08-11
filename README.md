@@ -5,6 +5,7 @@ This repository contains all Frontify ESLint configurations for its projects.
 ## Usage
 
 The configurations are published in 2 different flavors:
+
 - `@frontify/eslint-config-basic`: The base configuration including JavaScript and TypeScript rules.
 - `@frontify/eslint-config-react`: The base configuration including React rules.
 

@@ -1,7 +1,5 @@
 packages:
-  - packages/*
+    - packages/*
 
 onlyBuiltDependencies:
-  - unrs-resolver
-
-prefer-workspace-packages: true
+    - unrs-resolver
