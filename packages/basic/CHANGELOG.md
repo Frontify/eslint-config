@@ -1,5 +1,13 @@
 # @frontify/eslint-config-basic
 
+## 1.0.2
+
+### Patch Changes
+
+- [`e03344f`](https://github.com/Frontify/eslint-config/commit/e03344f2590d6ecc5470679c6797be9f3a5cc25c) Thanks [@SamuelAlev](https://github.com/SamuelAlev)! - fix: comment spacing issue on yaml/yml
+
+- [`e03344f`](https://github.com/Frontify/eslint-config/commit/e03344f2590d6ecc5470679c6797be9f3a5cc25c) Thanks [@SamuelAlev](https://github.com/SamuelAlev)! - fix: override curly from prettier
+
 ## 1.0.1
 
 ### Patch Changes
