@@ -17,7 +17,6 @@ import eslintPluginNoOnlyTests from 'eslint-plugin-no-only-tests';
 import eslintPluginPrettierRecommended from 'eslint-plugin-prettier/recommended';
 // @ts-expect-error No types available
 import eslintPluginPromise from 'eslint-plugin-promise';
-import eslintPluginRegexp from 'eslint-plugin-regexp';
 import eslintPluginUnicorn from 'eslint-plugin-unicorn';
 import eslintPluginYml from 'eslint-plugin-yml';
 import globals from 'globals';
@@ -28,7 +27,6 @@ export default tseslint.config(
     tseslint.configs.recommendedTypeChecked,
     // eslint-disable-next-line @typescript-eslint/no-unsafe-argument, @typescript-eslint/no-unsafe-member-access
     eslintPluginPromise.configs['flat/recommended'],
-    eslintPluginRegexp.configs['flat/recommended'],
     // eslint-disable-next-line @typescript-eslint/no-unsafe-argument, @typescript-eslint/no-unsafe-member-access
     eslintPluginComments.recommended,
     eslintPluginJsonc.configs['flat/recommended-with-json'],
