@@ -307,7 +307,7 @@ export default tseslint.config(
     },
     {
         // package.json rules
-        files: ['package.json'],
+        files: ['**/package.json'],
         extends: [tseslint.configs.disableTypeChecked],
         rules: {
             'jsonc/sort-keys': [
