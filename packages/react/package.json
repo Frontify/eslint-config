@@ -5,9 +5,9 @@
     "author": "Frontify Developers <developers@frontify.com>",
     "license": "MIT",
     "repository": {
+        "directory": "packages/react",
         "type": "git",
-        "url": "https://github.com/Frontify/eslint-config",
-        "directory": "packages/react"
+        "url": "https://github.com/Frontify/eslint-config"
     },
     "main": "eslint.config.mjs",
     "files": [
@@ -15,9 +15,6 @@
     ],
     "scripts": {
         "lint": "eslint ."
-    },
-    "publishConfig": {
-        "access": "public"
     },
     "peerDependencies": {
         "eslint": "^9.0.0",
@@ -35,5 +32,8 @@
     "devDependencies": {
         "eslint": "^9.33.0",
         "prettier": "^3.6.2"
+    },
+    "publishConfig": {
+        "access": "public"
     }
 }

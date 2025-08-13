@@ -17,6 +17,9 @@ importers:
       eslint:
         specifier: ^9.33.0
         version: 9.33.0
+      eslint-plugin-notice:
+        specifier: ^1.0.0
+        version: 1.0.0(eslint@9.33.0)
       prettier:
         specifier: ^3.6.2
         version: 3.6.2
@@ -994,6 +997,11 @@ packages:
     resolution: {integrity: sha512-brcKcxGnISN2CcVhXJ/kEQlNa0MEfGRtwKtWA16SkqXHKitaKIMrfemJKLKX1YqDU5C/5JY3PvZXd5jEW04e0Q==}
     engines: {node: '>=5.0.0'}
 
+  eslint-plugin-notice@1.0.0:
+    resolution: {integrity: sha512-M3VLQMZzZpvfTZ/vy9FmClIKq5rLBbQpM0KgfLZPJPrVXpmJYeobmmb+lfJzHWdNm8PWwvw8KlafQWo2N9xx1Q==}
+    peerDependencies:
+      eslint: '>=3.0.0'
+
   eslint-plugin-prettier@5.5.4:
     resolution: {integrity: sha512-swNtI95SToIz05YINMA6Ox5R057IMAmWZ26GqPxusAp1TZzj+IdY9tXNWWD3vkF/wEqydCONcwjTFpxybBqZsg==}
     engines: {node: ^14.18.0 || >=16.0.0}
@@ -1193,6 +1201,9 @@ packages:
   fill-range@7.1.1:
     resolution: {integrity: sha512-YsGpe3WHLK8ZYi4tWDg2Jy3ebRz2rXowDxnld4bkQB00cc/1Zw9AWnC0i9ztDJitivtQvaI9KaLyKrc+hBW0yg==}
     engines: {node: '>=8'}
+
+  find-root@1.1.0:
+    resolution: {integrity: sha512-NKfW6bec6GfKc0SGx1e07QZY9PE99u0Bft/0rzSD5k3sO/vwkVUpDUKVm5Gpp5Ue3YfShPFTX2070tDs5kB9Ng==}
 
   find-up-simple@1.0.1:
     resolution: {integrity: sha512-afd4O7zpqHeRyg4PfDQsXmlDe2PfdHtJt6Akt8jOWaApLOZk5JXs6VMR29lz03pRe9mpykrRCYIYxaJYcfpncQ==}
@@ -1661,6 +1672,9 @@ packages:
   merge2@1.4.1:
     resolution: {integrity: sha512-8q7VEgMJW4J8tcfVPy8g09NcQwZdbwFEqhe/WZkoIzjn/3TGDwtOCYtXGxA3O8tPzpczCCDgv+P2P5y00ZJOOg==}
     engines: {node: '>= 8'}
+
+  metric-lcs@0.1.2:
+    resolution: {integrity: sha512-+TZ5dUDPKPJaU/rscTzxyN8ZkX7eAVLAiQU/e+YINleXPv03SCmJShaMT1If1liTH8OcmWXZs0CmzCBRBLcMpA==}
 
   micromark@2.11.4:
     resolution: {integrity: sha512-+WoovN/ppKolQOFIAajxi7Lu9kInbPxFuTBVEavFcL8eAfVstoc5MocPmqBeAdBOJV00uaVjegzH4+MA0DN/uA==}
@@ -3418,6 +3432,13 @@ snapshots:
 
   eslint-plugin-no-only-tests@3.3.0: {}
 
+  eslint-plugin-notice@1.0.0(eslint@9.33.0):
+    dependencies:
+      eslint: 9.33.0
+      find-root: 1.1.0
+      lodash: 4.17.21
+      metric-lcs: 0.1.2
+
   eslint-plugin-prettier@5.5.4(@types/eslint@9.6.1)(eslint-config-prettier@10.1.8(eslint@9.33.0))(eslint@9.33.0)(prettier@3.6.2):
     dependencies:
       eslint: 9.33.0
@@ -3717,6 +3738,8 @@ snapshots:
   fill-range@7.1.1:
     dependencies:
       to-regex-range: 5.0.1
+
+  find-root@1.1.0: {}
 
   find-up-simple@1.0.1: {}
 
@@ -4198,6 +4221,8 @@ snapshots:
   mdast-util-to-string@2.0.0: {}
 
   merge2@1.4.1: {}
+
+  metric-lcs@0.1.2: {}
 
   micromark@2.11.4:
     dependencies:

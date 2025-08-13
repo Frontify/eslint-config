@@ -1,17 +1,17 @@
 {
     "$schema": "http://docs.renovatebot.com/renovate-schema.json",
+    "dependencyDashboard": false,
     "extends": ["config:base", "schedule:weekly", "group:allNonMajor"],
     "labels": ["dependencies"],
-    "vulnerabilityAlerts": {
-        "labels": ["security"]
-    },
-    "dependencyDashboard": false,
     "lockFileMaintenance": { "enabled": true },
-    "timezone": "Europe/Zurich",
     "packageRules": [
         {
-            "updateTypes": ["major"],
-            "labels": ["dependencies", "dependencies-major"]
+            "labels": ["dependencies", "dependencies-major"],
+            "updateTypes": ["major"]
         }
-    ]
+    ],
+    "timezone": "Europe/Zurich",
+    "vulnerabilityAlerts": {
+        "labels": ["security"]
+    }
 }
