@@ -1,5 +1,13 @@
 # @frontify/eslint-config-basic
 
+## 1.0.3
+
+### Patch Changes
+
+- [`dd30934`](https://github.com/Frontify/eslint-config/commit/dd309348a3bcf4503a1a686c5234ba25d692232d) Thanks [@SamuelAlev](https://github.com/SamuelAlev)! - fix: remove eslint regex since it introduces errors
+
+- [`e3dedde`](https://github.com/Frontify/eslint-config/commit/e3dedde32f5578c7ebfafcf7833552dc872dd4e2) Thanks [@SamuelAlev](https://github.com/SamuelAlev)! - fix: package json linting in monorepo
+
 ## 1.0.2
 
 ### Patch Changes
