@@ -100,4 +100,9 @@ export default tseslint.config(
             'jsx-a11y-x/click-events-have-key-events': 'off',
         },
     },
+    {
+        // Disable type check rules for JSON and YML/YAML files
+        files: ['**/*.json', '**/*.yaml', '**/*.yml'],
+        extends: [eslintPluginReact.configs['disable-type-checked']],
+    },
 );
