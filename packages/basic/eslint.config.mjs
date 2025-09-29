@@ -6,6 +6,7 @@ import eslint from '@eslint/js';
 // @ts-expect-error No types available
 import eslintPluginComments from '@eslint-community/eslint-plugin-eslint-comments/configs';
 import eslintPluginStylistic from '@stylistic/eslint-plugin';
+import { defineConfig } from 'eslint/config';
 import eslintPluginImport from 'eslint-plugin-import';
 import eslintPluginJsonc from 'eslint-plugin-jsonc';
 // @ts-expect-error No types available
@@ -22,7 +23,7 @@ import eslintPluginYml from 'eslint-plugin-yml';
 import globals from 'globals';
 import tseslint from 'typescript-eslint';
 
-export default tseslint.config(
+export default defineConfig(
     eslint.configs.recommended,
     tseslint.configs.recommendedTypeChecked,
     // eslint-disable-next-line @typescript-eslint/no-unsafe-argument, @typescript-eslint/no-unsafe-member-access

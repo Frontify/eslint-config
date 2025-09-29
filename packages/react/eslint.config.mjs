@@ -2,12 +2,13 @@
 
 import eslintPluginReact from '@eslint-react/eslint-plugin';
 import basicConfig from '@frontify/eslint-config-basic';
+import { defineConfig } from 'eslint/config';
 // @ts-expect-error No types available
 import eslintPluginJsxA11yX from 'eslint-plugin-jsx-a11y-x';
 import eslintPluginReactHooks from 'eslint-plugin-react-hooks';
-import tseslint from 'typescript-eslint';
 
-export default tseslint.config(
+export default defineConfig(
+    // eslint-disable-next-line @typescript-eslint/no-unsafe-argument
     basicConfig,
     // eslint-disable-next-line @typescript-eslint/no-unsafe-member-access, @typescript-eslint/no-unsafe-argument
     eslintPluginJsxA11yX.flatConfigs.recommended,

@@ -22,15 +22,15 @@
         "react": "^18 || ^19"
     },
     "dependencies": {
-        "@eslint-react/eslint-plugin": "^2.0.0-next.148",
+        "@eslint-react/eslint-plugin": "^2.0.2",
         "@frontify/eslint-config-basic": "workspace:^",
         "eslint-plugin-jsx-a11y-x": "^0.1.1",
         "eslint-plugin-react-hooks": "^5.2.0",
-        "globals": "^16.3.0",
-        "typescript-eslint": "^8.41.0"
+        "globals": "^16.4.0",
+        "typescript-eslint": "^8.45.0"
     },
     "devDependencies": {
-        "eslint": "^9.34.0",
+        "eslint": "^9.36.0",
         "prettier": "^3.6.2"
     },
     "publishConfig": {
