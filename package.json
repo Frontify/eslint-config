@@ -2,7 +2,7 @@
     "name": "@frontify/eslint-config-monorepo",
     "version": "0.0.1",
     "private": true,
-    "packageManager": "pnpm@10.17.1",
+    "packageManager": "pnpm@10.20.0",
     "author": "Frontify Developers <developers@frontify.com>",
     "license": "MIT",
     "repository": {
