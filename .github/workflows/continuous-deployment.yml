@@ -9,7 +9,7 @@ concurrency: ${{ github.workflow }}-${{ github.ref }}
 
 jobs:
   continuous-deployment:
-    runs-on: self-hosted-ubuntu-22.04-arm-2-cores
+    runs-on: ffy-ubuntu-24.04-arm # Provenance bundle signature check doesn't support self hosted runners.
     timeout-minutes: 10
 
     permissions:
