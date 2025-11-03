@@ -8,7 +8,6 @@ import eslintPluginJsxA11yX from 'eslint-plugin-jsx-a11y-x';
 import eslintPluginReactHooks from 'eslint-plugin-react-hooks';
 
 export default defineConfig(
-    // eslint-disable-next-line @typescript-eslint/no-unsafe-argument
     basicConfig,
     // eslint-disable-next-line @typescript-eslint/no-unsafe-member-access, @typescript-eslint/no-unsafe-argument
     eslintPluginJsxA11yX.flatConfigs.recommended,
