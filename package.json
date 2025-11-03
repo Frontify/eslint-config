@@ -12,7 +12,7 @@
     "scripts": {
         "lint": "eslint .",
         "lint:fix": "eslint --fix .",
-        "publish": "pnpm publish -r --access public",
+        "release": "pnpm publish -r --access=public",
         "typecheck": "tsc --noEmit",
         "update": "taze -r -I major"
     },
