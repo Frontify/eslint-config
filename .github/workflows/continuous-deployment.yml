@@ -1,45 +1,46 @@
 name: Continuous Deployment
 
 on:
-    push:
-        branches:
-            - main
+  push:
+    branches:
+      - main
 
 concurrency: ${{ github.workflow }}-${{ github.ref }}
 
 permissions:
-    id-token: write
-    contents: write
-    pull-requests: write
+  id-token: write
+  contents: write
+  pull-requests: write
 
 jobs:
-    continuous-deployment:
-        runs-on: self-hosted-ubuntu-22.04-arm-2-cores
-        timeout-minutes: 10
+  continuous-deployment:
+    runs-on: self-hosted-ubuntu-22.04-arm-2-cores
+    timeout-minutes: 10
 
-        steps:
-            - name: Checkout default branch
-              uses: actions/checkout@v5
+    steps:
+      - name: Checkout default branch
+        uses: actions/checkout@v5
 
-            - name: Use pnpm
-              uses: pnpm/action-setup@v4.2.0
+      - name: Use pnpm
+        uses: pnpm/action-setup@v4.2.0
 
-            - name: Use Node.js
-              uses: actions/setup-node@v6
-              with:
-                  node-version-file: '.nvmrc'
-                  cache: 'pnpm'
+      - name: Use Node.js
+        uses: actions/setup-node@v6
+        with:
+          node-version-file: ".nvmrc"
+          cache: "pnpm"
+          registry-url: "https://registry.npmjs.org"
 
-            - name: Install npm dependencies
-              run: pnpm i --frozen-lockfile
+      - name: Install npm dependencies
+        run: pnpm i --frozen-lockfile
 
-            - name: Create release PR or publish to npm
-              id: changesets
-              uses: changesets/action@v1
-              with:
-                  commit: 'chore: release packages'
-                  title: 'chore: release packages'
-                  createGithubReleases: true
-                  publish: pnpm publish -r --access public
-              env:
-                  GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+      - name: Create release PR or publish to npm
+        id: changesets
+        uses: changesets/action@v1
+        with:
+          commit: "chore: release packages"
+          title: "chore: release packages"
+          createGithubReleases: true
+          publish: pnpm publish -r --access public
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
