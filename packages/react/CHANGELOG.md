@@ -1,5 +1,16 @@
 # @frontify/eslint-config-react
 
+## 1.0.6
+
+### Patch Changes
+
+- [`740deec`](https://github.com/Frontify/eslint-config/commit/740deec678e7d29683d7f0d28e9a44104fb6ad93) Thanks [@SamuelAlev](https://github.com/SamuelAlev)! - fix: renamed rules after breaking changes from react eslint
+
+- [`740deec`](https://github.com/Frontify/eslint-config/commit/740deec678e7d29683d7f0d28e9a44104fb6ad93) Thanks [@SamuelAlev](https://github.com/SamuelAlev)! - chore: update deps
+
+- Updated dependencies [[`740deec`](https://github.com/Frontify/eslint-config/commit/740deec678e7d29683d7f0d28e9a44104fb6ad93)]:
+    - @frontify/eslint-config-basic@1.0.7
+
 ## 1.0.5
 
 ### Patch Changes
