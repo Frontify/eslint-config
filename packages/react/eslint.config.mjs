@@ -12,7 +12,7 @@ export default defineConfig(
     // eslint-disable-next-line @typescript-eslint/no-unsafe-member-access, @typescript-eslint/no-unsafe-argument
     eslintPluginJsxA11yX.flatConfigs.recommended,
     eslintPluginReact.configs['recommended-type-checked'],
-    eslintPluginReactHooks.configs['recommended-latest'],
+    eslintPluginReactHooks.configs.flat['recommended-latest'],
     {
         languageOptions: {
             parserOptions: {
