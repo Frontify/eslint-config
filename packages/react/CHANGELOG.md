@@ -1,5 +1,11 @@
 # @frontify/eslint-config-react
 
+## 1.0.7
+
+### Patch Changes
+
+- [`9e28924`](https://github.com/Frontify/eslint-config/commit/9e28924938309ac9f82d4535cb0eb3fb8b73704c) Thanks [@SamuelAlev](https://github.com/SamuelAlev)! - fix: react-hook plugin import breaking change
+
 ## 1.0.6
 
 ### Patch Changes
