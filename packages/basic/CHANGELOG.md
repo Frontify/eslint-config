@@ -1,5 +1,11 @@
 # @frontify/eslint-config-basic
 
+## 1.0.8
+
+### Patch Changes
+
+- [`e086c1f`](https://github.com/Frontify/eslint-config/commit/e086c1fd77a4ba4fe2984c1d69b9fe9df903c897) Thanks [@SamuelAlev](https://github.com/SamuelAlev)! - chore: update deps
+
 ## 1.0.7
 
 ### Patch Changes
