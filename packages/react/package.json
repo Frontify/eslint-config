@@ -27,7 +27,7 @@
         "@frontify/eslint-config-basic": "workspace:^",
         "eslint-plugin-jsx-a11y-x": "^0.1.1",
         "eslint-plugin-react-hooks": "^7.0.1",
-        "globals": "^16.5.0",
+        "globals": "^17.0.0",
         "typescript-eslint": "^8.48.0"
     },
     "devDependencies": {
