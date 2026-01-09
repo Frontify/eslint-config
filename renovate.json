@@ -1,9 +1,9 @@
 {
     "$schema": "http://docs.renovatebot.com/renovate-schema.json",
+    "bumpStrategy": "bump",
     "dependencyDashboard": false,
-    "extends": ["config:base", "schedule:weekly", "group:allNonMajor"],
+    "extends": ["config:base", "schedule:monthly", "group:allNonMajor"],
     "labels": ["dependencies"],
-    "lockFileMaintenance": { "enabled": true },
     "packageRules": [
         {
             "labels": ["dependencies", "dependencies-major"],
