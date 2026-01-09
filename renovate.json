@@ -1,6 +1,5 @@
 {
     "$schema": "http://docs.renovatebot.com/renovate-schema.json",
-    "bumpStrategy": "bump",
     "dependencyDashboard": false,
     "extends": ["config:base", "schedule:monthly", "group:allNonMajor"],
     "labels": ["dependencies"],
@@ -10,6 +9,7 @@
             "updateTypes": ["major"]
         }
     ],
+    "rangeStrategy": "bump",
     "timezone": "Europe/Zurich",
     "vulnerabilityAlerts": {
         "labels": ["security"]
