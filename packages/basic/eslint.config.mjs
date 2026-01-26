@@ -3,7 +3,6 @@
 // @ts-check
 
 import eslint from '@eslint/js';
-// @ts-expect-error No types available
 import eslintPluginComments from '@eslint-community/eslint-plugin-eslint-comments/configs';
 import eslintPluginStylistic from '@stylistic/eslint-plugin';
 import { defineConfig } from 'eslint/config';
