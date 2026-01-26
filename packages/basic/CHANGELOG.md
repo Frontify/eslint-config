@@ -1,5 +1,11 @@
 # @frontify/eslint-config-basic
 
+## 1.0.10
+
+### Patch Changes
+
+- [`1920ced`](https://github.com/Frontify/eslint-config/commit/1920ced7ad9cd4a8d300f8d0509b4a7f1c92bb5c) Thanks [@SamuelAlev](https://github.com/SamuelAlev)! - chore: update dependencies
+
 ## 1.0.9
 
 ### Patch Changes
