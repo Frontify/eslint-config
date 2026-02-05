@@ -1,5 +1,14 @@
 # @frontify/eslint-config-react
 
+## 1.0.11
+
+### Patch Changes
+
+- [`f9c787e`](https://github.com/Frontify/eslint-config/commit/f9c787e601c8cb95e5e5f65055bb9a98cfc900fb) Thanks [@SamuelAlev](https://github.com/SamuelAlev)! - chore: update dependencies
+
+- Updated dependencies [[`f9c787e`](https://github.com/Frontify/eslint-config/commit/f9c787e601c8cb95e5e5f65055bb9a98cfc900fb)]:
+    - @frontify/eslint-config-basic@1.0.11
+
 ## 1.0.10
 
 ### Patch Changes
