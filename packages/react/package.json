@@ -18,8 +18,8 @@
         "typecheck": "tsc --noEmit"
     },
     "peerDependencies": {
-        "eslint": "^9.0.0",
-        "prettier": "^3.0.0",
+        "eslint": "^9.39.2",
+        "prettier": "^3.8.1",
         "react": "^18 || ^19"
     },
     "dependencies": {
