@@ -19,7 +19,7 @@
     },
     "peerDependencies": {
         "eslint": "^9.0.0 || ^10.0.0",
-        "prettier": "^3.0.0",
+        "prettier": "^3.8.1",
         "react": "^18 || ^19"
     },
     "dependencies": {
