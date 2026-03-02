@@ -1,5 +1,11 @@
 # @frontify/eslint-config-basic
 
+## 1.0.13
+
+### Patch Changes
+
+- [`1f210aa`](https://github.com/Frontify/eslint-config/commit/1f210aae0e0e6c0ca8dfad69c9377c7534023a08) Thanks [@SamuelAlev](https://github.com/SamuelAlev)! - fix: minimatch version dependency override
+
 ## 1.0.12
 
 ### Patch Changes
