@@ -27,7 +27,6 @@ export default defineConfig(
     tseslint.configs.recommendedTypeChecked,
     // eslint-disable-next-line @typescript-eslint/no-unsafe-argument, @typescript-eslint/no-unsafe-member-access
     eslintPluginPromise.configs['flat/recommended'],
-    // eslint-disable-next-line @typescript-eslint/no-unsafe-argument, @typescript-eslint/no-unsafe-member-access
     eslintPluginComments.recommended,
     eslintPluginJsonc.configs['flat/recommended-with-json'],
     eslintPluginJsonc.configs['flat/prettier'],
