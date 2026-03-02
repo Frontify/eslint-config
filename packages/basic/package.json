@@ -19,8 +19,8 @@
     },
     "peerDependencies": {
         "eslint": "^9.0.0 || ^10.0.0",
-        "prettier": "^3.0.0",
-        "typescript": "^5.0.0"
+        "prettier": "^3.8.1",
+        "typescript": "^5.9.3"
     },
     "dependencies": {
         "@eslint-community/eslint-plugin-eslint-comments": "^4.7.1",
