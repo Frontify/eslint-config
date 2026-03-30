@@ -1,5 +1,15 @@
 # @frontify/eslint-config-basic
 
+## 1.0.14
+
+### Patch Changes
+
+- [`50d3310`](https://github.com/Frontify/eslint-config/commit/50d3310b3c1ca747cb5d254da6dd6b8967d59b8c) Thanks [@SamuelAlev](https://github.com/SamuelAlev)! - chore: update deprecated / non working dependencies to work with ESLint 10
+
+- [`4f756cf`](https://github.com/Frontify/eslint-config/commit/4f756cff68bbc9e705d87e58ceac546ec5acb641) Thanks [@SamuelAlev](https://github.com/SamuelAlev)! - chore: update dependencies
+
+- [`50d3310`](https://github.com/Frontify/eslint-config/commit/50d3310b3c1ca747cb5d254da6dd6b8967d59b8c) Thanks [@SamuelAlev](https://github.com/SamuelAlev)! - chore: scope the json(c) and y(a)ml plugins to the correct extensions
+
 ## 1.0.13
 
 ### Patch Changes

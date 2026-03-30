@@ -1,7 +1,7 @@
 {
     "name": "@frontify/eslint-config-react",
     "type": "module",
-    "version": "1.0.13",
+    "version": "1.0.14",
     "author": "Frontify Developers <developers@frontify.com>",
     "license": "MIT",
     "repository": {
