@@ -5,14 +5,12 @@ import basicConfig from '@frontify/eslint-config-basic';
 import { defineConfig } from 'eslint/config';
 // @ts-expect-error No types available
 import eslintPluginJsxA11yX from 'eslint-plugin-jsx-a11y-x';
-import eslintPluginReactHooks from 'eslint-plugin-react-hooks';
 
 export default defineConfig(
     basicConfig,
     // eslint-disable-next-line @typescript-eslint/no-unsafe-member-access, @typescript-eslint/no-unsafe-argument
     eslintPluginJsxA11yX.flatConfigs.recommended,
     eslintPluginReact.configs['recommended-type-checked'],
-    eslintPluginReactHooks.configs.flat['recommended-latest'],
     {
         languageOptions: {
             parserOptions: {
@@ -64,11 +62,8 @@ export default defineConfig(
             '@eslint-react/dom/no-missing-iframe-sandbox': 'error',
             '@eslint-react/no-unnecessary-use-callback': 'error',
             '@eslint-react/no-unnecessary-use-memo': 'error',
-            '@eslint-react/prefer-use-state-lazy-initialization': 'error',
-            '@eslint-react/naming-convention/component-name': ['error', 'PascalCase'],
             '@eslint-react/naming-convention/context-name': 'error',
-            '@eslint-react/naming-convention/filename-extension': ['warn', 'as-needed'],
-            '@eslint-react/naming-convention/use-state': 'error',
+            '@eslint-react/use-state': 'error',
         },
     },
     {

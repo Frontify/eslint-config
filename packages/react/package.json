@@ -24,10 +24,9 @@
         "typescript": "^5.0.0 || ^6.0.0 || ^7.0.0"
     },
     "dependencies": {
-        "@eslint-react/eslint-plugin": "^2.13.0",
+        "@eslint-react/eslint-plugin": "^3.0.0",
         "@frontify/eslint-config-basic": "workspace:^",
         "eslint-plugin-jsx-a11y-x": "^0.1.1",
-        "eslint-plugin-react-hooks": "^7.0.1",
         "globals": "^17.4.0",
         "typescript-eslint": "^8.57.2"
     },
