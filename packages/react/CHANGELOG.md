@@ -1,5 +1,18 @@
 # @frontify/eslint-config-react
 
+## 1.0.14
+
+### Patch Changes
+
+- [`4f756cf`](https://github.com/Frontify/eslint-config/commit/4f756cff68bbc9e705d87e58ceac546ec5acb641) Thanks [@SamuelAlev](https://github.com/SamuelAlev)! - chore: update dependencies
+
+- [`f5b3514`](https://github.com/Frontify/eslint-config/commit/f5b3514f3f7cabdfac276ffe8d897bc6e74f40f1) Thanks [@SamuelAlev](https://github.com/SamuelAlev)! - chore: update "@eslint-react/eslint-plugin"
+
+- [`50d3310`](https://github.com/Frontify/eslint-config/commit/50d3310b3c1ca747cb5d254da6dd6b8967d59b8c) Thanks [@SamuelAlev](https://github.com/SamuelAlev)! - fix: disable extra rule in test files
+
+- Updated dependencies [[`50d3310`](https://github.com/Frontify/eslint-config/commit/50d3310b3c1ca747cb5d254da6dd6b8967d59b8c), [`4f756cf`](https://github.com/Frontify/eslint-config/commit/4f756cff68bbc9e705d87e58ceac546ec5acb641), [`50d3310`](https://github.com/Frontify/eslint-config/commit/50d3310b3c1ca747cb5d254da6dd6b8967d59b8c)]:
+    - @frontify/eslint-config-basic@1.0.14
+
 ## 1.0.13
 
 ### Patch Changes
