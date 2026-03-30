@@ -11,6 +11,7 @@
     },
     "main": "eslint.config.mjs",
     "files": [
+        "rules",
         "eslint.config.mjs"
     ],
     "scripts": {

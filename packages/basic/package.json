@@ -11,8 +11,8 @@
     },
     "main": "eslint.config.mjs",
     "files": [
-        "eslint.config.mjs",
-        "rules"
+        "rules",
+        "eslint.config.mjs"
     ],
     "scripts": {
         "lint": "eslint .",
