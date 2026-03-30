@@ -10,5 +10,5 @@
         "strict": true,
         "target": "ESNext"
     },
-    "include": ["eslint.config.mjs", "package.json", "CHANGELOG.md"]
+    "include": ["eslint.config.mjs", "rules/**/*.mjs", "package.json", "CHANGELOG.md"]
 }

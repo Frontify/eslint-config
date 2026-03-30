@@ -12,5 +12,5 @@
         "strict": true,
         "target": "ESNext"
     },
-    "include": ["eslint.config.mjs", "package.json"]
+    "include": ["eslint.config.mjs", "package.json", "rules/**/*.mjs"]
 }

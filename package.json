@@ -2,7 +2,7 @@
     "name": "@frontify/eslint-config-monorepo",
     "version": "0.0.1",
     "private": true,
-    "packageManager": "pnpm@10.30.3",
+    "packageManager": "pnpm@10.33.0+sha512.10568bb4a6afb58c9eb3630da90cc9516417abebd3fabbe6739f0ae795728da1491e9db5a544c76ad8eb7570f5c4bb3d6c637b2cb41bfdcdb47fa823c8649319",
     "author": "Frontify Developers <developers@frontify.com>",
     "license": "MIT",
     "repository": {
@@ -13,6 +13,7 @@
         "lint": "eslint .",
         "lint:fix": "eslint --fix .",
         "release": "pnpm publish -r --access=public",
+        "test": "pnpm -r --filter './packages/*' run --if-present test",
         "typecheck": "tsc --noEmit",
         "update": "taze -r -I major"
     },
