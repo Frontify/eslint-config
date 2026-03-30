@@ -1,5 +1,11 @@
 # @frontify/eslint-config-basic
 
+## 1.0.15
+
+### Patch Changes
+
+- [`9ee84cc`](https://github.com/Frontify/eslint-config/commit/9ee84cc9232c6de5a7d38e9909b3166883e61a49) Thanks [@SamuelAlev](https://github.com/SamuelAlev)! - chore: add `rules` folder to npm package
+
 ## 1.0.14
 
 ### Patch Changes
