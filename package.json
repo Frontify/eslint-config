@@ -28,7 +28,15 @@
     },
     "pnpm": {
         "overrides": {
-            "minimatch@^3": "npm:minimatch@^3.1.4"
+            "minimatch@^3": "npm:minimatch@^3.1.4",
+            "flatted": ">=3.4.2",
+            "picomatch@<2.3.2": ">=2.3.2",
+            "picomatch@>=4.0.0 <4.0.4": ">=4.0.4",
+            "lodash": ">=4.18.0",
+            "defu": ">=6.1.5",
+            "brace-expansion@<1.1.13": ">=1.1.13",
+            "brace-expansion@>=4.0.0 <5.0.5": ">=5.0.5",
+            "yaml@>=2.0.0 <2.8.3": ">=2.8.3"
         }
     }
 }
