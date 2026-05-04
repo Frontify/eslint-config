@@ -11,7 +11,7 @@ overrides:
   picomatch@>=4.0.0 <4.0.4: '>=4.0.4'
   lodash: '>=4.18.0'
   defu: '>=6.1.5'
-  brace-expansion@<1.1.13: '>=1.1.13'
+  brace-expansion@<1.1.13: '>=5.0.5'
   brace-expansion@>=4.0.0 <5.0.5: '>=5.0.5'
   yaml@>=2.0.0 <2.8.3: '>=2.8.3'
 
@@ -722,10 +722,6 @@ packages:
 
   birecord@0.1.1:
     resolution: {integrity: sha512-VUpsf/qykW0heRlC8LooCq28Kxn3mAqKohhDG/49rrsQ1dT1CXyj/pgXS+5BSRzFTR/3DyIBOqQOrGyZOh71Aw==}
-
-  brace-expansion@5.0.4:
-    resolution: {integrity: sha512-h+DEnpVvxmfVefa4jFbCf5HdH5YMDXRsmKflpf1pILZWRFlTbJpxeU55nJl4Smt5HQaGzg1o6RHFPJaOqnmBDg==}
-    engines: {node: 18 || 20 || >=22}
 
   brace-expansion@5.0.5:
     resolution: {integrity: sha512-VZznLgtwhn+Mact9tfiwx64fA9erHH/MCXEUfB/0bX/6Fz6ny5EGTXYltMocqg4xFAQZtnO3DHWWXi8RiuN7cQ==}
@@ -2980,10 +2976,6 @@ snapshots:
 
   birecord@0.1.1: {}
 
-  brace-expansion@5.0.4:
-    dependencies:
-      balanced-match: 4.0.4
-
   brace-expansion@5.0.5:
     dependencies:
       balanced-match: 4.0.4
@@ -4392,7 +4384,7 @@ snapshots:
 
   minimatch@3.1.5:
     dependencies:
-      brace-expansion: 5.0.4
+      brace-expansion: 5.0.5
 
   minimist@1.2.8:
     optional: true
