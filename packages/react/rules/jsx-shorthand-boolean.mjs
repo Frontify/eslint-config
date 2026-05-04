@@ -2,7 +2,7 @@
 
 // @ts-check
 
-/** @returns {import('@eslint-react/kit').RuleDefinition} */
+/** @returns {import('@eslint-react/kit').RuleFunction} */
 export function jsxShorthandBoolean() {
     return (context) => ({
         JSXAttribute(node) {
