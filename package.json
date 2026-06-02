@@ -2,12 +2,12 @@
     "name": "@frontify/eslint-config-monorepo",
     "version": "0.0.1",
     "private": true,
-    "packageManager": "pnpm@10.33.2+sha512.a90faf6feeab71ad6c6e57f94e0fe1a12f5dcc22cd754db40ae9593eb6a3e0b6b12e3540218bb37ae083404b1f2ce6db2a4121e979829b4aff94b99f49da1cf8",
+    "packageManager": "pnpm@11.5.0+sha512.dbfcc4f81cf48597afd4bc391ffdf12c11f1a9fb83a395bfa6b0a2d9cc2fd8ffebafdb1ccbd529632153f793904c2615b7f09fe1a345473fd1c35845172a8eb1",
     "author": "Frontify Developers <developers@frontify.com>",
     "license": "MIT",
     "repository": {
         "type": "git",
-        "url": "https://github.com/Frontify/eslint-config"
+        "url": "https://github.com/Frontify/code-style"
     },
     "scripts": {
         "lint": "eslint .",
@@ -18,24 +18,24 @@
         "update": "taze -r -I major"
     },
     "devDependencies": {
-        "@changesets/changelog-github": "^0.6.0",
+        "@changesets/changelog-github": "^0.7.0",
         "@changesets/cli": "^2.31.0",
-        "eslint": "^10.3.0",
+        "eslint": "^10.4.1",
         "eslint-plugin-notice": "^1.0.0",
         "prettier": "^3.8.3",
-        "taze": "^19.11.0",
+        "taze": "^19.14.1",
         "typescript": "^6.0.3"
     },
     "pnpm": {
         "overrides": {
-            "minimatch@^3": "npm:minimatch@^3.1.4",
-            "flatted": ">=3.4.2",
-            "picomatch@<2.3.2": ">=2.3.2",
-            "picomatch@>=4.0.0 <4.0.4": ">=4.0.4",
-            "lodash": ">=4.18.0",
-            "defu": ">=6.1.5",
             "brace-expansion@<1.1.13": ">=1.1.13",
             "brace-expansion@>=4.0.0 <5.0.5": ">=5.0.5",
+            "defu": ">=6.1.5",
+            "flatted": ">=3.4.2",
+            "lodash": ">=4.18.0",
+            "minimatch@^3": "npm:minimatch@^3.1.4",
+            "picomatch@<2.3.2": ">=2.3.2",
+            "picomatch@>=4.0.0 <4.0.4": ">=4.0.4",
             "yaml@>=2.0.0 <2.8.3": ">=2.8.3"
         }
     }
